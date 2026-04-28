@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  ca-server:
+    build:
+      context: ./ca-server
+    container_name: ca-server
+    hostname: ca-server
+    ports:
+      - "22:22"
+      - "2222:2222"
+    volumes:
+      - ./keys/host_ca:/etc/ssh/ca/host_ca
+      - ./keys/host_ca.pub:/etc/ssh/ca/host_ca.pub
+      - ./keys/user_ca:/etc/ssh/ca/user_ca
+      - ./keys/user_ca.pub:/etc/ssh/ca/user_ca.pub
+      - ./keys/provision_key.pub:/etc/ssh/ca/provision_key.pub
+      - ./keys/user_identity.pub:/etc/ssh/ca/user_identity.pub
+      - ./ca-server/sshd_config_issue:/etc/ssh/ca/sshd_config_issue
+      - ./ca-server/sshd_config_admin:/etc/ssh/ca/sshd_config_admin
+      - ./keys/ca_host_key:/etc/ssh/ca_host_key
+      - ./keys/ca_host_key-cert.pub:/etc/ssh/ca_host_key-cert.pub
+      
+  target-server:
+    build:
+      context: ./target-server
+    container_name: target-server
+    hostname: target-server
+    expose:
+      - "22"
+    depends_on:
+      - ca-server
+    volumes:
+      - ./keys/user_ca.pub:/etc/ssh/user_ca.pub
+      - ./keys/provision_key:/etc/ssh/provision_key
+      - ./keys/host_ca.pub:/etc/ssh/host_ca.pub
+
+  client:
+    build:
+      context: ./client
+    container_name: client
+    hostname: client
+    depends_on:
+      - target-server
+    volumes:
+      - ./keys/host_ca.pub:/etc/ssh/host_ca.pub
+      - ./keys/user_identity:/etc/ssh/user_identity

@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+_override.tf
+_override.tf.json
+.terraformrc
+terraform.rc
+
+# Vault Data (Persistent Volume)
+vault_data/
+
+# Local Environment
+.DS_Store
+.env
+cluster-*-config
+EOF

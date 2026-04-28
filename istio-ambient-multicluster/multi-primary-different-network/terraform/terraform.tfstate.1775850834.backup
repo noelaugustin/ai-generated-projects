@@ -1,0 +1,2076 @@
+{
+  "version": 4,
+  "terraform_version": "1.14.7",
+  "serial": 151,
+  "lineage": "a5921122-c759-fc36-12c1-b9b083b6be20",
+  "outputs": {
+    "cluster1_endpoint": {
+      "value": "https://127.0.0.1:53206",
+      "type": "string"
+    },
+    "cluster1_kubeconfig": {
+      "value": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSFhVWjVwU1BzNHN3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsdVdXUDlwc1hTQWRES0hwRWVGUGFSUW9BM29wRGJYQXF2blovQWF5STErSEdXbGRoVGhuWTYvQTcKUkVWN2E5VzlUcG9SOVBScmVudXJjL1Y4aGFXL2pOY1BKWHk4RTR3L2czMjJSK09UckR0UHU2dFFxM1FGR2VqTQovREVXN2hWMUM0elVEeER4NE5CaDUxKzJoSnBRdEtPN1Zna0RDRVdISWR3Zkk0ZzFXbjA1OVdpbUlpaVZEYTBVCnNRK0hwUzJUVDRBTXk2SGdMakhxakVCNGhEcnBRU05WYStHd3ZyeWJjd0pOZzU1a1NHQkN6MS9OSnd4Tm1pOHQKWmN0VEtkQ1hIQ2VTaWFDdU1ZTm5IVDQ5aG5KUEpzZnI1SzZlRnJYbkJJQU5zbnZrMDBTbUIybytnRDlXSzZ5VAplZklSaGlFNTRXUm1SajltcGRJVDF0UzlEVWpIQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTY3MydEc5VmFKSzRjeGtva2YvWTM4dnRSa2d6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVlHOHM2ZGMzTwpFVloralFMSmhYUVpMK3pVanA5dkJrZnU4aGN0SUtqZWZSTmlnZVJpRXp1T25pSlErY3pVanlaOG5kVWc2REVDCi9FU2FVUmVKRGVOZDVrS0NYUkhiN0FmVGtMNjZmZ0tVWXJvN3Y2N0lwVGpnS2dxV3JtckZQRTE5eTQ1ckZ4Q04KTG1URDlnRHJmNXpobVlETm9MSVN1S2p3VHJrR01aZERRbi9jdytENk1BaTM3QklqeVd1bTFUd21CdzBTRVRjcQo0M3RBa0RBSjFBZk0ycE1NUlc4RVBueEVibGtSY2pyUGVsZkhpQXFWeERzdGsvdVdSVnB5UnBJd3RMamtrcjduCkFUUDNDZkN4dzJXLzRiL2pxWEFPNndFd1dIalR6L0JsdkRRNTkxNm9wOFQxV1dFQk9ubUFwUDBHNW5TZGg5MmEKTkN2b2xiaEhKc0VHCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53206\n  name: kind-cluster1\ncontexts:\n- context:\n    cluster: kind-cluster1\n    user: kind-cluster1\n  name: kind-cluster1\ncurrent-context: kind-cluster1\nkind: Config\npreferences: {}\nusers:\n- name: kind-cluster1\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJRjNJRFA1Z1F2Z1l3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDbXpLMkgKRnFINERDOEpiMzBkbjJOWG9JY0c1M2VnR2tFTnJQaUw2TkV6aEttOXNoZkpiaFFlRzVUWUlLUmlTN25XQlFmTQozUDQvSlE5TzJrRC94STJHSFZudnpsakxqa3E5bzVsRGNMdGxlK3dUbld6MlJ4L2lrdXo3SUlyZkZWWWhRbUZrCmExNWhBN3QwcERYUjhtNmw5NUlZQUx6TnN6elo5TlUvSC9RbFpGQnNmcDBWeitaMzFpc3VNRlB5aGN1Z1RYQlIKWlkrc3k0WDRicnlnNEZQcnduUEd2R283QzVtQkpJMGsraG4xMldrQlhFN0MzOXZqSFQyLzVQOGs4bytuZldkbApkSDQ3UGJ2aDgwMVNGSlNyNzJHbkpDOHp6bitlU0g0bEh5QXl4aVVwbXdRRU1iWnVLdWhPd015cTNCSEt2YW1sCktPVEtTYmQySjFNeHBLNFZBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkp5emEwYjFWb2tyaHpHUwppUi85amZ5KzFHU0RNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFlS3U2SDczOThycis1MkZva2FKVThTVThyCk1mTWcrUDI5TDRpN1BzVFlNRW5zOHFVN24yUU9rU0NpTFY4ZFlCUzNGME5XeFRRSWsrTUhNemF5bHJlLzl2NFYKdW9yTHlETjdpUE9wRy96QlR2c1pKZ1o5VXg1RTVHNkgzaWp6VEhtNGl2U0dzMlUrSlJnNDhtSkdwWHNScGpBNQpxRFNBS1U0RlJRdXZUakFMN01HbEV2NDYvQlIwOXZyQ3FLNGFkMnNBSDdKRWJYSnlpZnMxeGdrMzMyRVNwUUt1ClRwY0Z2a2czS2dtT2Z2QTl2R01JRUJpeTlFMmpMa2cydS84UHZIQ0ExS3dmRC9VSjNjYTc3SFQzREhFZlFPOWUKTWw0cE9iVE5ORlJCeUFpQURBZkNNejNXZEwvdmY1S1ZpbmxMWk1HWGJ4QjhVREhXN1dlSG9lUVpIeVlECi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBcHN5dGh4YWgrQXd2Q1c5OUhaOWpWNkNIQnVkM29CcEJEYXo0aStqUk00U3B2YklYCnlXNFVIaHVVMkNDa1lrdTUxZ1VIek56K1B5VVBUdHBBLzhTTmhoMVo3ODVZeTQ1S3ZhT1pRM0M3Wlh2c0U1MXMKOWtjZjRwTHMreUNLM3hWV0lVSmhaR3RlWVFPN2RLUTEwZkp1cGZlU0dBQzh6Yk04MmZUVlB4LzBKV1JRYkg2ZApGYy9tZDlZckxqQlQ4b1hMb0Uxd1VXV1ByTXVGK0c2OG9PQlQ2OEp6eHJ4cU93dVpnU1NOSlBvWjlkbHBBVnhPCnd0L2I0eDA5ditUL0pQS1BwMzFuWlhSK096Mjc0Zk5OVWhTVXErOWhweVF2TTg1L25raCtKUjhnTXNZbEtac0UKQkRHMmJpcm9Uc0RNcXR3UnlyMnBwU2preWttM2RpZFRNYVN1RlFJREFRQUJBb0lCQVFDZXh2MTBOMjR0QWVRUQpsa2xDVm9RcFdNelFIS3g2QWlQazBiK3k1d2VsZytaVWhlQXd4WkZ1NjVCdmYvc2ErcnpHNXZqNjRXOUFTcFhjCjJOUEE1S2hYZno4cWtJRmtHMm80UlRCU3kxQUhsY1F2RTg4eVRKZ2toUG9EUDRJU1Eydytzc0trNWJQc283SGcKb2FQOTIwbkt3UFVYMWpQamwzZ1lmZ0EwVzhWN2hRMWdsK09BaGpPRXJJU21UWERCMUFrbjB1Yzl4cmN5QWlkYgp6RHRSRS9QZkFTbDhVclROMXVTVmFpMXpyQk8waDNHa3RYVkdzVmViUDN0aU05aURHKys2T2w4a3ZWSzNQTTUzCnNWWkthSzdHVHRjOHEvZGVvZTFUSjlNY0d4ODdjd0Z1MlhxTU1iYmt2Y3Q3eTV3VVNQUDR2UEhlNXdRN1RhSm4KSGxLZ2JpdXRBb0dCQU1Xb3lWRFZ3N2ZaNjZzUkI5YkFRY011czF1SEZ4ZnBIOWdndlZ3ZXp3cmZLcDZYeFZUMAprWGY2UkpNRVM4WThEb052WmEyMmdSQkxVUWxTa25FMElJcmVXY2N1UFJYL1ZSMW1YY2JJTVR2aFdyUTlaMmdQCjJyN21Id0w1RlRqWC9ZVGQyWE9HL2w5T1g4TjFlSkgwQjZkWlVjcVA4ZFpuWFBrekNTaXRmY0hQQW9HQkFOZ0kKSFFDY29oT1FDckVFUXZUcWxPancvZ1RSQXd0d29DbTZtOHpQMHhpanlML0pHaGtpYnNkZjY3OGdueEI4a1NXVApwQzQ5RXFMaUlRZmlZU0dsNzl4Q0krRDArcWI0alFSSUZkZjRkRW1mNk5iSFlTMmk3M0N0NWdCVEJvdXUzVTN2CkpMaVIzVzJUc3hpaFRBbTMzUnd6c1NjOGVXVEY1eWpVQzBkS2xIN2JBb0dBYkdhaThjZ3FiRndCV1hJZm9IRVUKSDkwdTFGV0VIc0xsaWZ4Nm5WandKNEE0dVgxMjVaNnpZTjlLV0c2VXVBVWIySTF4Y0JHVk9zQnprdTlNRFBXUAptMWxTVjJCT2RBL3lPQXQ2QnBpb0Y3VUJyN08xVUdiUmlyeGQ2WjE5UEEySXBpT2RMRFN1c01va3p1ZFAxb3ZFCjNzeW5oTFhvNWJNT1ZFVGZFd1lDNEJVQ2dZQlhSZy9SYTNYZXlWWklaUnhYclYwekxnaXhFVzlWYzg2QWpTN2IKOHltb3pxSVBPTU1lWEZhOG5QZTBZdzFmcjdORHB2Mnc0R05qQWsrdHk3ckp5U3U1bzg2eTFzVmNKeFZ4SVY0Ugp2Z0hjcklsNEcxd2EvN1FUcFcxQnZFanNyVndpVy9aTnlqL1dRTkVkcGl2OTBSVzJpdnVLaWxmUWFsTVVuM1ZlCis3WTUrUUtCZ0NPakJIZjV3YmVtaHliRlRmc0VtMk9xdXd2eUxWeTFsbUZGY0NEQ1pNODRTbDN4MHpwVWtmLzUKZWx2bHByajBoSm44dVB6RDNkZFduNG1vd0FXRkFxZE1sL0ZNb1BIK29wZTlMNEE3aUtuWnB3UHErMW03UzRtWQpSbExnVG11RkIxcVl4ZFViR2doUjFvcHdiZzBQazFmdGI2T1kzbW9nYjZnWHNoU2JrYUVUCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "cluster1_metallb_ip_range": {
+      "value": "10.10.0.1-10.10.0.254",
+      "type": "string"
+    },
+    "cluster1_network": {
+      "value": "network1",
+      "type": "string"
+    },
+    "cluster2_endpoint": {
+      "value": "https://127.0.0.1:53208",
+      "type": "string"
+    },
+    "cluster2_kubeconfig": {
+      "value": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSUNKL1IxRmJRYll3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN6MHVJMkxtbzZPZ3NqNWVHSytxVzlnMUVUVkdrT1ZZVXV5NXJhTGFYVXgvSUlQZ3BtcTA0bVczQ1kKUkx2OC9xTTBzSUNKQUhFMTY4dVY0NnhzWTBzWkV0czkrTE45YzhhTXh6U1NlUHBnakxTZ25zYUhsdXZpTkhkcwpraXd5SWp5N1RockF5c0tHOERRR1graWZ1V0RyRThHM0tzVjJGbjNqRUhaWTZSTnZQd1hFZFFXMUlJQXQzb1NhCjkweDI3ZldQK1haTE16eTNGOXZUOW9INGNkeDRIZzB3dmZhdkJIWFNtVzVON1MxMzBZT1BmWUJpS1RiekMycEIKY292Zm82YThROHVBVlVTd0xEdjB1M0RCbWI3YWxzS0VUcU9PQ3hQRkZ0VzkySElWbG55YXVKNUFvUDN2N1RjbAp5R2g2azNlbXdwQXhlVDhCRmcxR2xLZDlEODFyQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUL080WmNQWWVreGVUWCtrbDdIeGdOMTIrYU56QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVk3REhvRDd2awpscG1iUjVwaWZ0eVZyZjAwc0piRy9aeGhWYlJMc1hMOWgvVEVwVE1pRXYrRHhuSy9HWW04R1VMc056VU1TR0szCnJJZnM3N2xBV0VUVkptN0UwMTk4Rm5SMHExMWgwSDFyZktJaS9aSWFvaGIwTk5VS2tybTh1YmRpMzR4YUxidWoKbmVHakQrcURHbEU0RE5GRlVIRTIxYlQwalM3dWVrdGNsNUxjUnJFZlF6UjM4RWJiL21COFo5dnNHZ0VaVkJrcwpqVS9ZdWoxNkg1Q1JKTEZDdmJicXNGSXdLaldxZlA5blBjc3FlaWxpRm1jZWlsZU1TaXkxZ0pvQzJlOWdSWk1QCi8vcUw5c1lxTWxzM0ZOckZiaExtMi9EVFBBbUVaUmVJOWplNkNueS9GVzJ1dE9kNElVRERtZHV1elM1UzJQMngKZzF1M3h3ZUg0YTNWCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53208\n  name: kind-cluster2\ncontexts:\n- context:\n    cluster: kind-cluster2\n    user: kind-cluster2\n  name: kind-cluster2\ncurrent-context: kind-cluster2\nkind: Config\npreferences: {}\nusers:\n- name: kind-cluster2\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJTVpVc2FDKzBhb2d3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEYmgvQk4KK3NndXo0V3NvT1d1SnZpdEZIU1p3b1Q5N0diMzZsYWZWd2kySHJtOC84NVMwRGxlM2RBazYzRnRrUW00S0JheQpFczBoSDVPbXlmMVkwdFZBUDJJb1F2a3VvWHdGNGcxVmYra3VRL1RwY0tUWDRsMjMyc0tVbHZKZG1FNFRpVnBWCjJaSUlqaWxFSlh1T2dpUFdYRkdDQkdTeEtSSWFPdHdIQUU1SnVHWS8zSndWcVZGWGVBK1hVT1NISUZiMFpkRjkKRGoxTURaSnF5YUE0cW1aNjl6M0FpSG5UMkwxaDJjTWFnbWNkRS9mWTNOc0JMTnpUdTA2N0wvTU0wWGtraW8rMAp1RHhmLzBTMDJOZHlyeW4xZnIrMnhzT09GQ1JkQk8xbTJ3TVdSSk5CL282SGkzSWV6b0FYVE56R3dtM2hMVWNhCk00Rk5LakVZWDBDSmlPVlpBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRlA4N2hsdzloNlRGNU5mNgpTWHNmR0EzWGI1bzNNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUEvd1VqaklHaWRnRDdyR3FzVUVtSGdaVStHCmF3UE9kbFJhTXJGa2tCeXR0VXIvYmR3SEJHK0dESTJpeHBxWnNIVnJmdTQ5OVo5eEJCMHVRaUpQWHg5cGpySkoKS2tYdW00Z1NIVCs5N0VPRFBGeUZBdTYvMmRNY1NxcFZWVDNJNW53MWcvNnNFV014NGZ0aU81MVpPN2xXODgwaApRM3IwUnE2Zk9CNGhML1pnb0lRYXlKUzRKU0l2TmZNTG5ndGJOQnc1MXFveDNabHljZEx4Ulo5QzVYYmh1MGx6CjE0NEpzZ095Ymx1bFZFQWh4NHVNaWQ4eEZYZENzQmFqRVRWU1RNRXZLY0ZMUUJzZnNBK25yOGJ5OXJkc3N6OEIKYTA3bGV0UGxPS1c5RHU4M3kwTzRVbmYrK2RDMHpyYWxCRmJKaFJ4QTZyOTJrZDFrUnJBcU5TNHlvSWw0Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBMjRmd1RmcklMcytGcktEbHJpYjRyUlIwbWNLRS9leG05K3BXbjFjSXRoNjV2UC9PClV0QTVYdDNRSk90eGJaRUp1Q2dXc2hMTklSK1Rwc245V05MVlFEOWlLRUw1THFGOEJlSU5WWC9wTGtQMDZYQ2sKMStKZHQ5ckNsSmJ5WFpoT0U0bGFWZG1TQ0k0cFJDVjdqb0lqMWx4UmdnUmtzU2tTR2pyY0J3Qk9TYmhtUDl5YwpGYWxSVjNnUGwxRGtoeUJXOUdYUmZRNDlUQTJTYXNtZ09LcG1ldmM5d0loNTA5aTlZZG5ER29KbkhSUDMyTnpiCkFTemMwN3RPdXkvekRORjVKSXFQdExnOFgvOUV0TmpYY3E4cDlYNi90c2JEamhRa1hRVHRadHNERmtTVFFmNk8KaDR0eUhzNkFGMHpjeHNKdDRTMUhHak9CVFNveEdGOUFpWWpsV1FJREFRQUJBb0lCQUh5YytJSTdOWUNrMmJzNQpCY2RLWmVSUmRUS0dvVmxGNU5rYlV4cFZuQ05NNDUvdUVOOGZSVUdkWlhaZmsxNWZjd1h1ODVzWFl3dEhVbGZkCjFvcWgrdHppWGNSKzU5VlpZdjR2NStPOW5NNWZVdGxqMEo2ZTV4WGkvb3E3K0UyNms2OHhTMjdwOXFRV2xrUVIKaHNaSkJ6QzU3S2FCK2VvNlp3VXVuaEQzVW5relByT0MrcEZYcVNzSmd4NXB6QkhHMndqdUNHMDh2d0FFWHB4Uwp3Q1RLM2p3eHpBczdUYnhvODd5Um1wb1FraXVGb2ZsdVJpVzNYbzdJV1JGOGNmZDI5Q2dzcVJ4MzlUSkp4aC9FCitWREh5TUg1NVF3UlNWUFVxQzRwVThsRjJOQWRMdzVQRDM1L3RRTTFIOVE1MUdGdHhDTnVXUFBHYWJzRFBzTFgKa1gybGdpVUNnWUVBNDZGMUNrQUx2aExkaGFqT0w2WXQrREl6M0dZTFVHSEtFSTJzK1NCRVZMRGhHS1BidUUybQpwN1p2am9abkpGYXZGQ0xCeFpJK2Zjdml0MUk3Q0FxRHVrSFhIQkhJSXZNMEgrSGpvSnk0dHI1SnlXeW5WYXg3Ck5uQmE4TklaYTB0eWRYZ2VIanZDcmZQUllobDlKUkR4Y1hZVWFlNXZqVFFTeFJGQWtDajdTeU1DZ1lFQTl1UVAKeWNyNW9FVHZxWTJIbUpQdm5tdlBqa3hzdWpodmRsTlR6RklYNm10eHpHcHJocTZpT2FMRExyWDdyRWd6clJ6aApPOHFEa1dHOWZqUTltUUNhd0t5Q21RUWVVeXhTRkw2N2ZBSzd1Q1pPNThHSko0Zk9wWVpyNm1IVjI4U3lPNmh1CmdKOC92cGd2R3JobVVwNWlPdzEvZmhhRFEzc0FqS0FDOWdLTFkxTUNnWUErS1hSVjFVR2ZxWFUzTCs4R2tpSVIKbWx3UlB3aXQ3ZGFKaUxjSTNXZnJuTllMcll1dUcvNTc1RlU0bmJtQzhlMGoyWTRERHpuampvOGVNdVdOLzVrVApmekZvSis3NHBHUENwU1JOVXg4YVFJTFQ3OGtPbTJpV2FENWRiM0tqbTFucGZHRDFMcXF1YUZ2d3B6ZEdyUWJTClRrV3EzQU00azFUZzNpSThmQVNMOHdLQmdIQ1ovMkZuZzRaSEtvOUlEMm5WUHRvZ0RaKzIxM2Z2T1ZiY0ZrSC8KeHd5UlNHdVV0Y25OYUF1bFlpT3h1RUVSQlJDVk5WeVJ0b1BkOGhEWFBxakRqOUVFWE9Qdzd1dThNUXRwR2hVcgpJZmFROGpmZEd2SytpODhPaWJWeVBabG9FbW9ISGE3bjhxaTR1L01SMndrZlYybmJkQ1JMbkQ1d29RV0NEUmVxCmZXd2xBb0dCQU5NYjFtSnM4dVI0cHVtT3NOQkFYQmt6K0drQjlsaXc0MWh5NVFnUW1yR0NocUVEQ1hCcUkzVEwKa1prcVZ6WHVOTXhPWXNFdnVUd3BmaVhxN0d5cDhCUy92SkhMYVpHbXJBemZMRmRqREQ5bjF2OElCakZqazFENwp6SWhndG91ZVl3b0tRcUw2KzR0MDVZbm8wQitqWnVua2czditLOXkwZXdKaE91WnF6VUlRCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "cluster2_metallb_ip_range": {
+      "value": "10.81.0.1-10.81.0.254",
+      "type": "string"
+    },
+    "cluster2_network": {
+      "value": "network2",
+      "type": "string"
+    },
+    "cluster3_endpoint": {
+      "value": "https://127.0.0.1:53207",
+      "type": "string"
+    },
+    "cluster3_kubeconfig": {
+      "value": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJTEVXT3FkcUdkbkF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNqVzBNaW1YZDRla3lhTjlsS1pXUUJWNk5UOTlCaTdPNDRBbWZidjBZaWFrazlDLzBPanZOaXpwSUoKQ3ZaTXhob2YwT202TGRaUmNCejRwSEFzS0hFWXBnbWZBcTF3YUNCWEhzUU54b3V1MzI3bHViaEE4aUk1Y3BNeQpNdmhURFhraGJkNGJEV3VPc2grMDFoQUk5aVQvelhiZEo0aGtCbmdpNzdEekx5VEtrenRsNHNQZ1pZbjlNUjBuCnhLQUl2aVZNaVNFdExoMERTeXA2b0ViWGFpNUYvcFA4WmV3dWd1T2x0MWxzU1RETTZpcjlOMXF0SWVTTkNBUXkKK3E4UkV3UXZyUW4zY2xtN1FLbFduRVQ3dHkwb2FUOGdjajZmS0NZdXFKR2FDN3Fjbk9odDI0cDArdDdhYURJYwo0TUYxeEZkbFVFYTdTRGhSZGRmWlJNa2dySWw5QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSL3YzdGZiMnZzdHpUYndYMis4dyt0cDFDQ2NqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ09kTWNFdjJYTAp4QW5sNHBiUFkrb1BuYjhzN1pBeTErQ3JtRWhaYzBWdm9FRjBMeUtkelZqSkZWWkwzamZyNEFHeU5NY090UGRKCjJmVTY0dGlRQTRleld2R01aa3Y3clJSWVhhRmhVeUlOZ0NDeEljSlpjUG15S1BkRXovd0hWWVhxZ3BUZ2pDUlkKUG5DMUhTdUpJZDBLekh1azlBQUtjWmZNbzBqbEsrUXlsQ09QNERWeDhMSkkvd2RLNUhHbXoxSnlFOTFRSjhSZAo5bXNaUkNVK0IxamYvMHcrcUttZGFGV0FVRDJVTzkydmwxS29qVHB1K3hnMFRjTlVSVDNQUDFnSWtsNFExRktECmpDSHhJbnlJNWpIeEJXeVV0S2dUbittd0tiYTE2eW9tUEFIWFY0Z1hidlM2alZmWjlPaFFqbHJPRHhZbmZhMEQKa25iWFhGcnhpQnk1Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53207\n  name: kind-cluster3\ncontexts:\n- context:\n    cluster: kind-cluster3\n    user: kind-cluster3\n  name: kind-cluster3\ncurrent-context: kind-cluster3\nkind: Config\npreferences: {}\nusers:\n- name: kind-cluster3\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJVHpwVUlkREhTQUF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEWTJpZ0YKTlhQYXpzallZNzgwRmtxbWZwWlExNTFST1F0YVEwYzJuMU1ZU0x2MEc1YWdleXNsZlpjY0p6ZitpVXpTSzhpNwpvajkwdWE0eUtyczM5RitoM3d5MjhOTEZZYVYwUkFlRkJBSXBKYjZreFMzNGhXaEdqY2ZnQTJSZWhBelk0ZldXCjU0YjMybjlMb0VyaWJ3OHhDOXQzWlFFWGxRWVZZRnhOdmRnd2RuRExPcnArbDI0T09rRmRSZ3A3WFViZytaQzUKMnNqWmc2UzJ1dmltMk1KSnYrWSs1MXpGbm9uTVo2MkRSR3g5RzBCaURKUThTbldLR2gxMVR4NldqVDMzL3NPRwoxcEtWUFlYUythNG8rUVoyQXg0TGl0M1BEbUJGRXFESUp6MnVTKyt0L1drNTRjTDJSY05KUGNVMStSNzFxUHdRCnZpaktQc0ZydHNndHNWV2RBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkgrL2UxOXZhK3kzTk52QgpmYjd6RDYyblVJSnlNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFrRFVhOGViK3NMYkREZWY1a2VLQ09XVFFuCjNEcjFBaGFYV25PRWRDQUlDYVVQSFkrZVRjZ2hwL1JWNUVCOU15Vk1rTm16RnhBdUhqUlU3bWc5K3JXY3hybkIKejNqWXRhUCtFTnN5QU4wMVNyYW92aGFTOVJJWnFJWCtEcExMTVRRSWZnUzVoUVZONDZCY2FsS0ZBbFZMRnpQawpaWnBVQUUrVTkzM2VwVDVMZDBFVFZpcDhSdDlLME52RjliS1d3OTg0dFNFUGovekpaaWZZZGxrVlliTHlIUjJ6CjBhWjM3R3FsbmxkNThnN3AyMDNIbklPWGVkM2t0YWVsc2UrMzlBSW9MaEpDdnlUNXNHTVhoQlB1WTEyeURNaUEKUnBReDAwYWhhSVlpM1NUYWFNZU9yZ1ZhSzVVdCtiL0xPWm4rYmo4NVBSclRGQitMaUdleTFFMXV3ZC9iCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcFFJQkFBS0NBUUVBMk5vb0JUVnoyczdJMkdPL05CWktwbjZXVU5lZFVUa0xXa05ITnA5VEdFaTc5QnVXCm9Ic3JKWDJYSENjMy9vbE0waXZJdTZJL2RMbXVNaXE3Ti9SZm9kOE10dkRTeFdHbGRFUUhoUVFDS1NXK3BNVXQKK0lWb1JvM0g0QU5rWG9RTTJPSDFsdWVHOTlwL1M2Qks0bThQTVF2YmQyVUJGNVVHRldCY1RiM1lNSFp3eXpxNgpmcGR1RGpwQlhVWUtlMTFHNFBtUXVkckkyWU9rdHJyNHB0akNTYi9tUHVkY3haNkp6R2V0ZzBSc2ZSdEFZZ3lVClBFcDFpaG9kZFU4ZWxvMDk5LzdEaHRhU2xUMkYwdm11S1BrR2RnTWVDNHJkenc1Z1JSS2d5Q2M5cmt2dnJmMXAKT2VIQzlrWERTVDNGTmZrZTlhajhFTDRveWo3QmE3YklMYkZWblFJREFRQUJBb0lCQVFEUHhxZVY1aE50MGJncgpiZGRrUnYrYjY2cUhKekM3QkZkV1V5Ukd0LzNjUk1TaUxsVHl5MUVhQ08zaXNjazYvNzgxbVhJcUpsbDZzL2F1ClpyY2Y4K3cxb3d3QnRWbWVlZU1ZTlo2bTJxSmZYcVQrSjFmV3lheVIvWU5IcHJoaXYwKzM5emxqTDgvb1o5aVUKVTYrc3FoRDZRNHd6Si9vVjZGbjkzV2hUck5VYUNINU9qSVhqaERaRUY2Qnh2ZXV1RzFkcFVZYm51aHRPVmpuZgpHOWpKVGVtcllRYVpXb2N4Z3FQZzBoTU9tVThYQTdUZHdxMDg3bjBaQTdRWjBoS0ZsbWtSdmVnQytIRE5qUS91CkhQWkx6aHQvUlZUZEhvUXNib2JmVmM2eGo4bHZEMzZxOVFmaTZEclY5clF5YUxRVGkxbG1pZzd1aUhpdmxVdXAKc0ZwL0xTV0JBb0dCQU9MQzg3bEJSVVBZTFlOSFpOL3ZoWDc1VFczeHFUQURtOWRrZlZTTXVvbEFKZ1RZZzU3UwpOb2g1R1NyOWtkMllIN1crRE1SYTUrSnZVU0FtUTlqNHlnTFBEWUFyRkRZaGlhOTJzU0NNK0V0OTFXUHg4cVE0ClQrekNVaXovcUJ1VUVQMU5jTytUWTZ5QWxGQnJjYjRxSVdHR1RkdjB3MFhBT1BJL1lIelI3azJOQW9HQkFQVFEKSEpaNXZUTGNaSW50M2ozTUFnYmhpNUc5WnYvS011RkVqVTEwNmdrV3U5bEF2MitIWlVhMC9NK1NTeHNpeHB2TQpUZm9hQVUwd2ErOS9tU2tIN1d4c2MxMGFwSEpEVTlTTndZOUxSN1h1MndwUVR1Q3RlVFNFS05uM25WU0xyU0dzCnNtVDA1OW1HMmEyWnlLUkw1RmQzU0pQNmRHVkxIUUpzU1R0QnhQeFJBb0dBSm1xKzNkRFlDa0Z5bkg0WThmTmoKVzNxakNwQlppSC9rQkI3TE9PcktvM3dSdE5wMW1nK2xHNFBncHE3azZuVGVVbTBMUHF6a0FqRzN2Y21kendGLwpQL0NTS2ZlaWFmVk9uVUp2aWNNNFFabms4QlRLZGRYd2ZIMERiUW8zRWMwSS85RUI1Q1RGU3pGUmJ6cDB2N0hsCmk5ODBDNkt3L24wdGFLVWlGS09BU3ZVQ2dZRUF0cGRCdXpteFUyM3R6cklMUUN3WWx1bENIOEVVUVZPZC8wWVIKM2VPRmFxSDZHVitoYUoyamU4a2hoZSttOU9aTEc0aVY0Q1BsTkowWTQ5aFhjN0xsOGlneEl3L3I5dzBnU1RneApWWjdnTFdHcEhWZ29mSXJtQzdWR2dzdWNIS0xRem56djBUeVljRFdUeFZjZHZ1eWJzbURWVVFsTUp3Q084bSt4CmJ2RHU2d0VDZ1lFQXo4TWgyTHkzWUh6SlJjYitJa2pucTc4NnZCSFA3alB5SWd4ODZoT3NScWpCR3RnT0l4NWcKN1RRaHZFbzVnamVjd1RHRkx5bGRnL3dVb1JWeWxGb2lma3VHUFlZV2N1MTk2a0hseUFJUlNVamc2Si9YNFdFVwp2VVBZNVdNK0NremJ2am9qQmpKbUhHQ2VMM082TlVpZE5PcTR0N201MkRlWU9tSTZlSittdnJrPQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "istio_mesh_id": {
+      "value": "mesh1",
+      "type": "string"
+    },
+    "shared_network_name": {
+      "value": "kind-shared",
+      "type": "string"
+    },
+    "xds_gateway_ip": {
+      "value": "10.90.0.2",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "docker_network",
+      "name": "shared",
+      "provider": "provider[\"registry.terraform.io/kreuzwerker/docker\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "attachable": false,
+            "check_duplicate": null,
+            "driver": "bridge",
+            "id": "0cfaebfc3d1a769a515613d3cbbfd0cc11d2298762f3fb75bab130baa4061242",
+            "ingress": false,
+            "internal": false,
+            "ipam_config": [
+              {
+                "aux_address": {},
+                "gateway": "10.0.0.1",
+                "ip_range": "",
+                "subnet": "10.0.0.0/9"
+              }
+            ],
+            "ipam_driver": "default",
+            "ipam_options": {},
+            "ipv6": false,
+            "labels": [],
+            "name": "kind-shared",
+            "options": {
+              "com.docker.network.enable_ipv4": "true",
+              "com.docker.network.enable_ipv6": "false"
+            },
+            "scope": "local"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "istio_base_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "base",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "istio-base",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.29.0",
+                "chart": "base",
+                "first_deployed": 1775850224,
+                "last_deployed": 1775850224,
+                "name": "istio-base",
+                "namespace": "istio-system",
+                "notes": "Istio base successfully installed!\n\nTo learn more about the release, try:\n  $ helm status istio-base -n istio-system\n  $ helm get all istio-base -n istio-system\n",
+                "revision": 1,
+                "values": "{}",
+                "version": "1.29.0"
+              }
+            ],
+            "name": "istio-base",
+            "namespace": "istio-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://istio-release.storage.googleapis.com/charts",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 120,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "1.29.0",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.metallb_cluster1",
+            "kind_cluster.cluster1",
+            "kubernetes_namespace.istio_system_cluster1",
+            "kubernetes_secret.cacerts_cluster1",
+            "null_resource.cluster1_connect_network",
+            "null_resource.gateway_api_crds_cluster1",
+            "null_resource.metallb_config_cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "istio_base_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "base",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "istio-base",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.29.0",
+                "chart": "base",
+                "first_deployed": 1775850259,
+                "last_deployed": 1775850259,
+                "name": "istio-base",
+                "namespace": "istio-system",
+                "notes": "Istio base successfully installed!\n\nTo learn more about the release, try:\n  $ helm status istio-base -n istio-system\n  $ helm get all istio-base -n istio-system\n",
+                "revision": 1,
+                "values": "{}",
+                "version": "1.29.0"
+              }
+            ],
+            "name": "istio-base",
+            "namespace": "istio-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://istio-release.storage.googleapis.com/charts",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 120,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "1.29.0",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.metallb_cluster2",
+            "kind_cluster.cluster2",
+            "kubernetes_namespace.istio_system_cluster2",
+            "kubernetes_secret.cacerts_cluster2",
+            "null_resource.cluster2_connect_network",
+            "null_resource.gateway_api_crds_cluster2",
+            "null_resource.metallb_config_cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "istio_cni_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "cni",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "istio-cni",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.29.0",
+                "chart": "cni",
+                "first_deployed": 1775850268,
+                "last_deployed": 1775850268,
+                "name": "istio-cni",
+                "namespace": "istio-system",
+                "notes": "\"istio-cni\" successfully installed!\n\nTo learn more about the release, try:\n  $ helm status istio-cni -n istio-system\n  $ helm get all istio-cni -n istio-system\n",
+                "revision": 1,
+                "values": "{\"profile\":\"ambient\"}",
+                "version": "1.29.0"
+              }
+            ],
+            "name": "istio-cni",
+            "namespace": "istio-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://istio-release.storage.googleapis.com/charts",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "profile",
+                "type": "",
+                "value": "ambient"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 120,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "1.29.0",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.istio_base_cluster1",
+            "helm_release.istiod_cluster1",
+            "helm_release.metallb_cluster1",
+            "kind_cluster.cluster1",
+            "kubernetes_namespace.istio_system_cluster1",
+            "kubernetes_secret.cacerts_cluster1",
+            "null_resource.cluster1_connect_network",
+            "null_resource.gateway_api_crds_cluster1",
+            "null_resource.metallb_config_cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "istio_cni_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "cni",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "istio-cni",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.29.0",
+                "chart": "cni",
+                "first_deployed": 1775850306,
+                "last_deployed": 1775850306,
+                "name": "istio-cni",
+                "namespace": "istio-system",
+                "notes": "\"istio-cni\" successfully installed!\n\nTo learn more about the release, try:\n  $ helm status istio-cni -n istio-system\n  $ helm get all istio-cni -n istio-system\n",
+                "revision": 1,
+                "values": "{\"profile\":\"ambient\"}",
+                "version": "1.29.0"
+              }
+            ],
+            "name": "istio-cni",
+            "namespace": "istio-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://istio-release.storage.googleapis.com/charts",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "profile",
+                "type": "",
+                "value": "ambient"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 120,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "1.29.0",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.istio_base_cluster2",
+            "helm_release.istiod_cluster2",
+            "helm_release.metallb_cluster2",
+            "kind_cluster.cluster2",
+            "kubernetes_namespace.istio_system_cluster2",
+            "kubernetes_secret.cacerts_cluster2",
+            "null_resource.cluster2_connect_network",
+            "null_resource.gateway_api_crds_cluster2",
+            "null_resource.metallb_config_cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "istiod_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "istiod",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "istiod",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.29.0",
+                "chart": "istiod",
+                "first_deployed": 1775850229,
+                "last_deployed": 1775850229,
+                "name": "istiod",
+                "namespace": "istio-system",
+                "notes": "\"istiod\" successfully installed!\n\nTo learn more about the release, try:\n  $ helm status istiod -n istio-system\n  $ helm get all istiod -n istio-system\n\nNext steps:\n  * Get started with ambient: https://istio.io/latest/docs/ops/ambient/getting-started/\n  * Review ambient's architecture: https://istio.io/latest/docs/ops/ambient/architecture/\n  * Review the list of actively supported releases, CVE publications and our hardening guide:\n    * https://istio.io/latest/docs/releases/supported-releases/\n    * https://istio.io/latest/news/security/\n    * https://istio.io/latest/docs/ops/best-practices/security/\n\nFor further documentation see https://istio.io website",
+                "revision": 1,
+                "values": "{\"env\":{\"AMBIENT_ENABLE_BAGGAGE\":true,\"AMBIENT_ENABLE_MULTI_NETWORK\":true},\"global\":{\"meshID\":\"mesh1\",\"multiCluster\":{\"clusterName\":\"cluster1\"},\"network\":\"network1\"},\"profile\":\"ambient\"}",
+                "version": "1.29.0"
+              }
+            ],
+            "name": "istiod",
+            "namespace": "istio-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://istio-release.storage.googleapis.com/charts",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "env.AMBIENT_ENABLE_BAGGAGE",
+                "type": "",
+                "value": "true"
+              },
+              {
+                "name": "env.AMBIENT_ENABLE_MULTI_NETWORK",
+                "type": "",
+                "value": "true"
+              },
+              {
+                "name": "global.meshID",
+                "type": "",
+                "value": "mesh1"
+              },
+              {
+                "name": "global.multiCluster.clusterName",
+                "type": "",
+                "value": "cluster1"
+              },
+              {
+                "name": "global.network",
+                "type": "",
+                "value": "network1"
+              },
+              {
+                "name": "profile",
+                "type": "",
+                "value": "ambient"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "1.29.0",
+            "wait": true,
+            "wait_for_jobs": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.istio_base_cluster1",
+            "helm_release.metallb_cluster1",
+            "kind_cluster.cluster1",
+            "kubernetes_namespace.istio_system_cluster1",
+            "kubernetes_secret.cacerts_cluster1",
+            "null_resource.cluster1_connect_network",
+            "null_resource.gateway_api_crds_cluster1",
+            "null_resource.metallb_config_cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "istiod_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "istiod",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "istiod",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.29.0",
+                "chart": "istiod",
+                "first_deployed": 1775850265,
+                "last_deployed": 1775850265,
+                "name": "istiod",
+                "namespace": "istio-system",
+                "notes": "\"istiod\" successfully installed!\n\nTo learn more about the release, try:\n  $ helm status istiod -n istio-system\n  $ helm get all istiod -n istio-system\n\nNext steps:\n  * Get started with ambient: https://istio.io/latest/docs/ops/ambient/getting-started/\n  * Review ambient's architecture: https://istio.io/latest/docs/ops/ambient/architecture/\n  * Review the list of actively supported releases, CVE publications and our hardening guide:\n    * https://istio.io/latest/docs/releases/supported-releases/\n    * https://istio.io/latest/news/security/\n    * https://istio.io/latest/docs/ops/best-practices/security/\n\nFor further documentation see https://istio.io website",
+                "revision": 1,
+                "values": "{\"env\":{\"AMBIENT_ENABLE_BAGGAGE\":true,\"AMBIENT_ENABLE_MULTI_NETWORK\":true},\"global\":{\"meshID\":\"mesh1\",\"multiCluster\":{\"clusterName\":\"cluster2\"},\"network\":\"network2\"},\"profile\":\"ambient\"}",
+                "version": "1.29.0"
+              }
+            ],
+            "name": "istiod",
+            "namespace": "istio-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://istio-release.storage.googleapis.com/charts",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "env.AMBIENT_ENABLE_BAGGAGE",
+                "type": "",
+                "value": "true"
+              },
+              {
+                "name": "env.AMBIENT_ENABLE_MULTI_NETWORK",
+                "type": "",
+                "value": "true"
+              },
+              {
+                "name": "global.meshID",
+                "type": "",
+                "value": "mesh1"
+              },
+              {
+                "name": "global.multiCluster.clusterName",
+                "type": "",
+                "value": "cluster2"
+              },
+              {
+                "name": "global.network",
+                "type": "",
+                "value": "network2"
+              },
+              {
+                "name": "profile",
+                "type": "",
+                "value": "ambient"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "1.29.0",
+            "wait": true,
+            "wait_for_jobs": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.istio_base_cluster2",
+            "helm_release.metallb_cluster2",
+            "kind_cluster.cluster2",
+            "kubernetes_namespace.istio_system_cluster2",
+            "kubernetes_secret.cacerts_cluster2",
+            "null_resource.cluster2_connect_network",
+            "null_resource.gateway_api_crds_cluster2",
+            "null_resource.metallb_config_cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "metallb_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "metallb",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "metallb",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "v0.14.9",
+                "chart": "metallb",
+                "first_deployed": 1775850055,
+                "last_deployed": 1775850055,
+                "name": "metallb",
+                "namespace": "metallb-system",
+                "notes": "MetalLB is now running in the cluster.\n\nNow you can configure it via its CRs. Please refer to the metallb official docs\non how to use the CRs.\n",
+                "revision": 1,
+                "values": "{}",
+                "version": "0.14.9"
+              }
+            ],
+            "name": "metallb",
+            "namespace": "metallb-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://metallb.github.io/metallb",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "0.14.9",
+            "wait": true,
+            "wait_for_jobs": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster1",
+            "null_resource.cluster1_connect_network"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "metallb_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "metallb",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "metallb",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "v0.14.9",
+                "chart": "metallb",
+                "first_deployed": 1775850047,
+                "last_deployed": 1775850047,
+                "name": "metallb",
+                "namespace": "metallb-system",
+                "notes": "MetalLB is now running in the cluster.\n\nNow you can configure it via its CRs. Please refer to the metallb official docs\non how to use the CRs.\n",
+                "revision": 1,
+                "values": "{}",
+                "version": "0.14.9"
+              }
+            ],
+            "name": "metallb",
+            "namespace": "metallb-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://metallb.github.io/metallb",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "0.14.9",
+            "wait": true,
+            "wait_for_jobs": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster2",
+            "null_resource.cluster2_connect_network"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "metallb_cluster3",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster3",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "metallb",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "metallb",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "v0.14.9",
+                "chart": "metallb",
+                "first_deployed": 1775850078,
+                "last_deployed": 1775850078,
+                "name": "metallb",
+                "namespace": "metallb-system",
+                "notes": "MetalLB is now running in the cluster.\n\nNow you can configure it via its CRs. Please refer to the metallb official docs\non how to use the CRs.\n",
+                "revision": 1,
+                "values": "{}",
+                "version": "0.14.9"
+              }
+            ],
+            "name": "metallb",
+            "namespace": "metallb-system",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://metallb.github.io/metallb",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "0.14.9",
+            "wait": true,
+            "wait_for_jobs": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster3",
+            "null_resource.cluster3_connect_network"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "valkey_cluster3",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].cluster3",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "valkey",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": "Install complete",
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "valkey",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "9.0.3",
+                "chart": "valkey",
+                "first_deployed": 1775850623,
+                "last_deployed": 1775850623,
+                "name": "valkey",
+                "namespace": "discovery",
+                "notes": "CHART NAME: valkey\nCHART VERSION: 5.4.10\nAPP VERSION: 9.0.3\n\n⚠ WARNING: Since August 28th, 2025, only a limited subset of images/charts are available for free.\n    Subscribe to Bitnami Secure Images to receive continued support and security updates.\n    More info at https://bitnami.com and https://github.com/bitnami/containers/issues/83267\n\n** Please be patient while the chart is being deployed **\n\nValkey can be accessed via port 6379 on the following DNS name from within your cluster:\n\n    valkey-primary.discovery.svc.cluster.local\n\nTo connect to your Valkey server:\n\n1. Run a Valkey pod that you can use as a client:\n\n   kubectl run --namespace discovery valkey-client --restart='Never'  --image registry-1.docker.io/bitnami/valkey:latest --command -- sleep infinity\n\n   Use the following command to attach to the pod:\n\n   kubectl exec --tty -i valkey-client \\\n   --namespace discovery -- bash\n\n2. Connect using the Valkey CLI:\n   valkey-cli -h valkey-primary\n\nTo connect to your database from outside the cluster execute the following commands:\n\n    kubectl port-forward --namespace discovery svc/valkey-primary 6379:6379 \u0026\n    valkey-cli -h 127.0.0.1 -p 6379\nWARNING: Rolling tag detected (bitnami/valkey:latest), please note that it is strongly recommended to avoid using rolling tags in a production environment.\n+info https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-understand-rolling-tags-containers-index.html\nWARNING: Rolling tag detected (bitnami/valkey-sentinel:latest), please note that it is strongly recommended to avoid using rolling tags in a production environment.\n+info https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-understand-rolling-tags-containers-index.html\nWARNING: Rolling tag detected (bitnami/redis-exporter:latest), please note that it is strongly recommended to avoid using rolling tags in a production environment.\n+info https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-understand-rolling-tags-containers-index.html\nWARNING: Rolling tag detected (bitnami/os-shell:latest), please note that it is strongly recommended to avoid using rolling tags in a production environment.\n+info https://techdocs.broadcom.com/us/en/vmware-tanzu/bitnami-secure-images/bitnami-secure-images/services/bsi-doc/apps-tutorials-understand-rolling-tags-containers-index.html\n\nWARNING: There are \"resources\" sections in the chart not set. Using \"resourcesPreset\" is not recommended for production. For production installations, please set the following values according to your workload needs:\n  - replica.resources\n+info https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/\n",
+                "revision": 1,
+                "values": "{\"architecture\":\"standalone\",\"auth\":{\"enabled\":false},\"persistence\":{\"enabled\":false},\"primary\":{\"resources\":{\"requests\":{\"memory\":\"64Mi\"}}}}",
+                "version": "5.4.10"
+              }
+            ],
+            "name": "valkey",
+            "namespace": "discovery",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": null,
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "architecture",
+                "type": "",
+                "value": "standalone"
+              },
+              {
+                "name": "auth.enabled",
+                "type": "",
+                "value": "false"
+              },
+              {
+                "name": "persistence.enabled",
+                "type": "",
+                "value": "false"
+              },
+              {
+                "name": "primary.resources.requests.memory",
+                "type": "",
+                "value": "64Mi"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "5.4.10",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "kind_cluster.cluster3",
+            "kubernetes_namespace.discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kind_cluster",
+      "name": "cluster1",
+      "provider": "provider[\"registry.terraform.io/tehcyx/kind\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "client_certificate": "-----BEGIN CERTIFICATE-----\nMIIDKTCCAhGgAwIBAgIIF3IDP5gQvgYwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA0MTAxOTM1MDNaFw0yNzA0MTAxOTQwMDNaMDwx\nHzAdBgNVBAoTFmt1YmVhZG06Y2x1c3Rlci1hZG1pbnMxGTAXBgNVBAMTEGt1YmVy\nbmV0ZXMtYWRtaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmzK2H\nFqH4DC8Jb30dn2NXoIcG53egGkENrPiL6NEzhKm9shfJbhQeG5TYIKRiS7nWBQfM\n3P4/JQ9O2kD/xI2GHVnvzljLjkq9o5lDcLtle+wTnWz2Rx/ikuz7IIrfFVYhQmFk\na15hA7t0pDXR8m6l95IYALzNszzZ9NU/H/QlZFBsfp0Vz+Z31isuMFPyhcugTXBR\nZY+sy4X4bryg4FPrwnPGvGo7C5mBJI0k+hn12WkBXE7C39vjHT2/5P8k8o+nfWdl\ndH47Pbvh801SFJSr72GnJC8zzn+eSH4lHyAyxiUpmwQEMbZuKuhOwMyq3BHKvaml\nKOTKSbd2J1MxpK4VAgMBAAGjVjBUMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAK\nBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFJyza0b1VokrhzGS\niR/9jfy+1GSDMA0GCSqGSIb3DQEBCwUAA4IBAQAeKu6H7398rr+52FokaJU8SU8r\nMfMg+P29L4i7PsTYMEns8qU7n2QOkSCiLV8dYBS3F0NWxTQIk+MHMzaylre/9v4V\nuorLyDN7iPOpG/zBTvsZJgZ9Ux5E5G6H3ijzTHm4ivSGs2U+JRg48mJGpXsRpjA5\nqDSAKU4FRQuvTjAL7MGlEv46/BR09vrCqK4ad2sAH7JEbXJyifs1xgk332ESpQKu\nTpcFvkg3KgmOfvA9vGMIEBiy9E2jLkg2u/8PvHCA1KwfD/UJ3ca77HT3DHEfQO9e\nMl4pObTNNFRByAiADAfCMz3WdL/vf5KVinlLZMGXbxB8UDHW7WeHoeQZHyYD\n-----END CERTIFICATE-----\n",
+            "client_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEApsythxah+AwvCW99HZ9jV6CHBud3oBpBDaz4i+jRM4SpvbIX\nyW4UHhuU2CCkYku51gUHzNz+PyUPTtpA/8SNhh1Z785Yy45KvaOZQ3C7ZXvsE51s\n9kcf4pLs+yCK3xVWIUJhZGteYQO7dKQ10fJupfeSGAC8zbM82fTVPx/0JWRQbH6d\nFc/md9YrLjBT8oXLoE1wUWWPrMuF+G68oOBT68JzxrxqOwuZgSSNJPoZ9dlpAVxO\nwt/b4x09v+T/JPKPp31nZXR+Oz274fNNUhSUq+9hpyQvM85/nkh+JR8gMsYlKZsE\nBDG2biroTsDMqtwRyr2ppSjkykm3didTMaSuFQIDAQABAoIBAQCexv10N24tAeQQ\nlklCVoQpWMzQHKx6AiPk0b+y5welg+ZUheAwxZFu65Bvf/sa+rzG5vj64W9ASpXc\n2NPA5KhXfz8qkIFkG2o4RTBSy1AHlcQvE88yTJgkhPoDP4ISQ2w+ssKk5bPso7Hg\noaP920nKwPUX1jPjl3gYfgA0W8V7hQ1gl+OAhjOErISmTXDB1Akn0uc9xrcyAidb\nzDtRE/PfASl8UrTN1uSVai1zrBO0h3GktXVGsVebP3tiM9iDG++6Ol8kvVK3PM53\nsVZKaK7GTtc8q/deoe1TJ9McGx87cwFu2XqMMbbkvct7y5wUSPP4vPHe5wQ7TaJn\nHlKgbiutAoGBAMWoyVDVw7fZ66sRB9bAQcMus1uHFxfpH9ggvVwezwrfKp6XxVT0\nkXf6RJMES8Y8DoNvZa22gRBLUQlSknE0IIreWccuPRX/VR1mXcbIMTvhWrQ9Z2gP\n2r7mHwL5FTjX/YTd2XOG/l9OX8N1eJH0B6dZUcqP8dZnXPkzCSitfcHPAoGBANgI\nHQCcohOQCrEEQvTqlOjw/gTRAwtwoCm6m8zP0xijyL/JGhkibsdf678gnxB8kSWT\npC49EqLiIQfiYSGl79xCI+D0+qb4jQRIFdf4dEmf6NbHYS2i73Ct5gBTBouu3U3v\nJLiR3W2TsxihTAm33RwzsSc8eWTF5yjUC0dKlH7bAoGAbGai8cgqbFwBWXIfoHEU\nH90u1FWEHsLlifx6nVjwJ4A4uX125Z6zYN9KWG6UuAUb2I1xcBGVOsBzku9MDPWP\nm1lSV2BOdA/yOAt6BpioF7UBr7O1UGbRirxd6Z19PA2IpiOdLDSusMokzudP1ovE\n3synhLXo5bMOVETfEwYC4BUCgYBXRg/Ra3XeyVZIZRxXrV0zLgixEW9Vc86AjS7b\n8ymozqIPOMMeXFa8nPe0Yw1fr7NDpv2w4GNjAk+ty7rJySu5o86y1sVcJxVxIV4R\nvgHcrIl4G1wa/7QTpW1BvEjsrVwiW/ZNyj/WQNEdpiv90RW2ivuKilfQalMUn3Ve\n+7Y5+QKBgCOjBHf5wbemhybFTfsEm2OquwvyLVy1lmFFcCDCZM84Sl3x0zpUkf/5\nelvlprj0hJn8uPzD3ddWn4mowAWFAqdMl/FMoPH+ope9L4A7iKnZpwPq+1m7S4mY\nRlLgTmuFB1qYxdUbGghR1opwbg0Pk1ftb6OY3mogb6gXshSbkaET\n-----END RSA PRIVATE KEY-----\n",
+            "cluster_ca_certificate": "-----BEGIN CERTIFICATE-----\nMIIDBTCCAe2gAwIBAgIIHXUZ5pSPs4swDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA0MTAxOTM1MDNaFw0zNjA0MDcxOTQwMDNaMBUx\nEzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQCluWWP9psXSAdDKHpEeFPaRQoA3opDbXAqvnZ/AayI1+HGWldhThnY6/A7\nREV7a9W9TpoR9PRrenurc/V8haW/jNcPJXy8E4w/g322R+OTrDtPu6tQq3QFGejM\n/DEW7hV1C4zUDxDx4NBh51+2hJpQtKO7VgkDCEWHIdwfI4g1Wn059WimIiiVDa0U\nsQ+HpS2TT4AMy6HgLjHqjEB4hDrpQSNVa+GwvrybcwJNg55kSGBCz1/NJwxNmi8t\nZctTKdCXHCeSiaCuMYNnHT49hnJPJsfr5K6eFrXnBIANsnvk00SmB2o+gD9WK6yT\nefIRhiE54WRmRj9mpdIT1tS9DUjHAgMBAAGjWTBXMA4GA1UdDwEB/wQEAwICpDAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBScs2tG9VaJK4cxkokf/Y38vtRkgzAV\nBgNVHREEDjAMggprdWJlcm5ldGVzMA0GCSqGSIb3DQEBCwUAA4IBAQAYG8s6dc3O\nEVZ+jQLJhXQZL+zUjp9vBkfu8hctIKjefRNigeRiEzuOniJQ+czUjyZ8ndUg6DEC\n/ESaUReJDeNd5kKCXRHb7AfTkL66fgKUYro7v67IpTjgKgqWrmrFPE19y45rFxCN\nLmTD9gDrf5zhmYDNoLISuKjwTrkGMZdDQn/cw+D6MAi37BIjyWum1TwmBw0SETcq\n43tAkDAJ1AfM2pMMRW8EPnxEblkRcjrPelfHiAqVxDstk/uWRVpyRpIwtLjkkr7n\nATP3CfCxw2W/4b/jqXAO6wEwWHjTz/BlvDQ5916op8T1WWEBOnmApP0G5nSdh92a\nNCvolbhHJsEG\n-----END CERTIFICATE-----\n",
+            "completed": true,
+            "endpoint": "https://127.0.0.1:53206",
+            "id": "cluster1-kindest/node:v1.31.4",
+            "kind_config": [
+              {
+                "api_version": "kind.x-k8s.io/v1alpha4",
+                "containerd_config_patches": [],
+                "feature_gates": {},
+                "kind": "Cluster",
+                "networking": [],
+                "node": [
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": [],
+                    "labels": {},
+                    "role": "control-plane"
+                  },
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": [],
+                    "labels": {},
+                    "role": "worker"
+                  }
+                ],
+                "runtime_config": {}
+              }
+            ],
+            "kubeconfig": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSFhVWjVwU1BzNHN3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsdVdXUDlwc1hTQWRES0hwRWVGUGFSUW9BM29wRGJYQXF2blovQWF5STErSEdXbGRoVGhuWTYvQTcKUkVWN2E5VzlUcG9SOVBScmVudXJjL1Y4aGFXL2pOY1BKWHk4RTR3L2czMjJSK09UckR0UHU2dFFxM1FGR2VqTQovREVXN2hWMUM0elVEeER4NE5CaDUxKzJoSnBRdEtPN1Zna0RDRVdISWR3Zkk0ZzFXbjA1OVdpbUlpaVZEYTBVCnNRK0hwUzJUVDRBTXk2SGdMakhxakVCNGhEcnBRU05WYStHd3ZyeWJjd0pOZzU1a1NHQkN6MS9OSnd4Tm1pOHQKWmN0VEtkQ1hIQ2VTaWFDdU1ZTm5IVDQ5aG5KUEpzZnI1SzZlRnJYbkJJQU5zbnZrMDBTbUIybytnRDlXSzZ5VAplZklSaGlFNTRXUm1SajltcGRJVDF0UzlEVWpIQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTY3MydEc5VmFKSzRjeGtva2YvWTM4dnRSa2d6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVlHOHM2ZGMzTwpFVloralFMSmhYUVpMK3pVanA5dkJrZnU4aGN0SUtqZWZSTmlnZVJpRXp1T25pSlErY3pVanlaOG5kVWc2REVDCi9FU2FVUmVKRGVOZDVrS0NYUkhiN0FmVGtMNjZmZ0tVWXJvN3Y2N0lwVGpnS2dxV3JtckZQRTE5eTQ1ckZ4Q04KTG1URDlnRHJmNXpobVlETm9MSVN1S2p3VHJrR01aZERRbi9jdytENk1BaTM3QklqeVd1bTFUd21CdzBTRVRjcQo0M3RBa0RBSjFBZk0ycE1NUlc4RVBueEVibGtSY2pyUGVsZkhpQXFWeERzdGsvdVdSVnB5UnBJd3RMamtrcjduCkFUUDNDZkN4dzJXLzRiL2pxWEFPNndFd1dIalR6L0JsdkRRNTkxNm9wOFQxV1dFQk9ubUFwUDBHNW5TZGg5MmEKTkN2b2xiaEhKc0VHCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53206\n  name: kind-cluster1\ncontexts:\n- context:\n    cluster: kind-cluster1\n    user: kind-cluster1\n  name: kind-cluster1\ncurrent-context: kind-cluster1\nkind: Config\npreferences: {}\nusers:\n- name: kind-cluster1\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJRjNJRFA1Z1F2Z1l3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDbXpLMkgKRnFINERDOEpiMzBkbjJOWG9JY0c1M2VnR2tFTnJQaUw2TkV6aEttOXNoZkpiaFFlRzVUWUlLUmlTN25XQlFmTQozUDQvSlE5TzJrRC94STJHSFZudnpsakxqa3E5bzVsRGNMdGxlK3dUbld6MlJ4L2lrdXo3SUlyZkZWWWhRbUZrCmExNWhBN3QwcERYUjhtNmw5NUlZQUx6TnN6elo5TlUvSC9RbFpGQnNmcDBWeitaMzFpc3VNRlB5aGN1Z1RYQlIKWlkrc3k0WDRicnlnNEZQcnduUEd2R283QzVtQkpJMGsraG4xMldrQlhFN0MzOXZqSFQyLzVQOGs4bytuZldkbApkSDQ3UGJ2aDgwMVNGSlNyNzJHbkpDOHp6bitlU0g0bEh5QXl4aVVwbXdRRU1iWnVLdWhPd015cTNCSEt2YW1sCktPVEtTYmQySjFNeHBLNFZBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkp5emEwYjFWb2tyaHpHUwppUi85amZ5KzFHU0RNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFlS3U2SDczOThycis1MkZva2FKVThTVThyCk1mTWcrUDI5TDRpN1BzVFlNRW5zOHFVN24yUU9rU0NpTFY4ZFlCUzNGME5XeFRRSWsrTUhNemF5bHJlLzl2NFYKdW9yTHlETjdpUE9wRy96QlR2c1pKZ1o5VXg1RTVHNkgzaWp6VEhtNGl2U0dzMlUrSlJnNDhtSkdwWHNScGpBNQpxRFNBS1U0RlJRdXZUakFMN01HbEV2NDYvQlIwOXZyQ3FLNGFkMnNBSDdKRWJYSnlpZnMxeGdrMzMyRVNwUUt1ClRwY0Z2a2czS2dtT2Z2QTl2R01JRUJpeTlFMmpMa2cydS84UHZIQ0ExS3dmRC9VSjNjYTc3SFQzREhFZlFPOWUKTWw0cE9iVE5ORlJCeUFpQURBZkNNejNXZEwvdmY1S1ZpbmxMWk1HWGJ4QjhVREhXN1dlSG9lUVpIeVlECi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBcHN5dGh4YWgrQXd2Q1c5OUhaOWpWNkNIQnVkM29CcEJEYXo0aStqUk00U3B2YklYCnlXNFVIaHVVMkNDa1lrdTUxZ1VIek56K1B5VVBUdHBBLzhTTmhoMVo3ODVZeTQ1S3ZhT1pRM0M3Wlh2c0U1MXMKOWtjZjRwTHMreUNLM3hWV0lVSmhaR3RlWVFPN2RLUTEwZkp1cGZlU0dBQzh6Yk04MmZUVlB4LzBKV1JRYkg2ZApGYy9tZDlZckxqQlQ4b1hMb0Uxd1VXV1ByTXVGK0c2OG9PQlQ2OEp6eHJ4cU93dVpnU1NOSlBvWjlkbHBBVnhPCnd0L2I0eDA5ditUL0pQS1BwMzFuWlhSK096Mjc0Zk5OVWhTVXErOWhweVF2TTg1L25raCtKUjhnTXNZbEtac0UKQkRHMmJpcm9Uc0RNcXR3UnlyMnBwU2preWttM2RpZFRNYVN1RlFJREFRQUJBb0lCQVFDZXh2MTBOMjR0QWVRUQpsa2xDVm9RcFdNelFIS3g2QWlQazBiK3k1d2VsZytaVWhlQXd4WkZ1NjVCdmYvc2ErcnpHNXZqNjRXOUFTcFhjCjJOUEE1S2hYZno4cWtJRmtHMm80UlRCU3kxQUhsY1F2RTg4eVRKZ2toUG9EUDRJU1Eydytzc0trNWJQc283SGcKb2FQOTIwbkt3UFVYMWpQamwzZ1lmZ0EwVzhWN2hRMWdsK09BaGpPRXJJU21UWERCMUFrbjB1Yzl4cmN5QWlkYgp6RHRSRS9QZkFTbDhVclROMXVTVmFpMXpyQk8waDNHa3RYVkdzVmViUDN0aU05aURHKys2T2w4a3ZWSzNQTTUzCnNWWkthSzdHVHRjOHEvZGVvZTFUSjlNY0d4ODdjd0Z1MlhxTU1iYmt2Y3Q3eTV3VVNQUDR2UEhlNXdRN1RhSm4KSGxLZ2JpdXRBb0dCQU1Xb3lWRFZ3N2ZaNjZzUkI5YkFRY011czF1SEZ4ZnBIOWdndlZ3ZXp3cmZLcDZYeFZUMAprWGY2UkpNRVM4WThEb052WmEyMmdSQkxVUWxTa25FMElJcmVXY2N1UFJYL1ZSMW1YY2JJTVR2aFdyUTlaMmdQCjJyN21Id0w1RlRqWC9ZVGQyWE9HL2w5T1g4TjFlSkgwQjZkWlVjcVA4ZFpuWFBrekNTaXRmY0hQQW9HQkFOZ0kKSFFDY29oT1FDckVFUXZUcWxPancvZ1RSQXd0d29DbTZtOHpQMHhpanlML0pHaGtpYnNkZjY3OGdueEI4a1NXVApwQzQ5RXFMaUlRZmlZU0dsNzl4Q0krRDArcWI0alFSSUZkZjRkRW1mNk5iSFlTMmk3M0N0NWdCVEJvdXUzVTN2CkpMaVIzVzJUc3hpaFRBbTMzUnd6c1NjOGVXVEY1eWpVQzBkS2xIN2JBb0dBYkdhaThjZ3FiRndCV1hJZm9IRVUKSDkwdTFGV0VIc0xsaWZ4Nm5WandKNEE0dVgxMjVaNnpZTjlLV0c2VXVBVWIySTF4Y0JHVk9zQnprdTlNRFBXUAptMWxTVjJCT2RBL3lPQXQ2QnBpb0Y3VUJyN08xVUdiUmlyeGQ2WjE5UEEySXBpT2RMRFN1c01va3p1ZFAxb3ZFCjNzeW5oTFhvNWJNT1ZFVGZFd1lDNEJVQ2dZQlhSZy9SYTNYZXlWWklaUnhYclYwekxnaXhFVzlWYzg2QWpTN2IKOHltb3pxSVBPTU1lWEZhOG5QZTBZdzFmcjdORHB2Mnc0R05qQWsrdHk3ckp5U3U1bzg2eTFzVmNKeFZ4SVY0Ugp2Z0hjcklsNEcxd2EvN1FUcFcxQnZFanNyVndpVy9aTnlqL1dRTkVkcGl2OTBSVzJpdnVLaWxmUWFsTVVuM1ZlCis3WTUrUUtCZ0NPakJIZjV3YmVtaHliRlRmc0VtMk9xdXd2eUxWeTFsbUZGY0NEQ1pNODRTbDN4MHpwVWtmLzUKZWx2bHByajBoSm44dVB6RDNkZFduNG1vd0FXRkFxZE1sL0ZNb1BIK29wZTlMNEE3aUtuWnB3UHErMW03UzRtWQpSbExnVG11RkIxcVl4ZFViR2doUjFvcHdiZzBQazFmdGI2T1kzbW9nYjZnWHNoU2JrYUVUCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+            "kubeconfig_path": "/Users/naugustin/work/experiments/istio-ambient-multicluster/multi-primary-different-network/terraform/cluster1-config",
+            "name": "cluster1",
+            "node_image": "kindest/node:v1.31.4",
+            "timeouts": null,
+            "wait_for_ready": true
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjMwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kind_cluster",
+      "name": "cluster2",
+      "provider": "provider[\"registry.terraform.io/tehcyx/kind\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "client_certificate": "-----BEGIN CERTIFICATE-----\nMIIDKTCCAhGgAwIBAgIIMZUsaC+0aogwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA0MTAxOTM1MDNaFw0yNzA0MTAxOTQwMDNaMDwx\nHzAdBgNVBAoTFmt1YmVhZG06Y2x1c3Rlci1hZG1pbnMxGTAXBgNVBAMTEGt1YmVy\nbmV0ZXMtYWRtaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbh/BN\n+sguz4WsoOWuJvitFHSZwoT97Gb36lafVwi2Hrm8/85S0Dle3dAk63FtkQm4KBay\nEs0hH5Omyf1Y0tVAP2IoQvkuoXwF4g1Vf+kuQ/TpcKTX4l232sKUlvJdmE4TiVpV\n2ZIIjilEJXuOgiPWXFGCBGSxKRIaOtwHAE5JuGY/3JwVqVFXeA+XUOSHIFb0ZdF9\nDj1MDZJqyaA4qmZ69z3AiHnT2L1h2cMagmcdE/fY3NsBLNzTu067L/MM0Xkkio+0\nuDxf/0S02Ndyryn1fr+2xsOOFCRdBO1m2wMWRJNB/o6Hi3IezoAXTNzGwm3hLUca\nM4FNKjEYX0CJiOVZAgMBAAGjVjBUMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAK\nBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFP87hlw9h6TF5Nf6\nSXsfGA3Xb5o3MA0GCSqGSIb3DQEBCwUAA4IBAQA/wUjjIGidgD7rGqsUEmHgZU+G\nawPOdlRaMrFkkByttUr/bdwHBG+GDI2ixpqZsHVrfu499Z9xBB0uQiJPXx9pjrJJ\nKkXum4gSHT+97EODPFyFAu6/2dMcSqpVVT3I5nw1g/6sEWMx4ftiO51ZO7lW880h\nQ3r0Rq6fOB4hL/ZgoIQayJS4JSIvNfMLngtbNBw51qox3ZlycdLxRZ9C5Xbhu0lz\n144JsgOyblulVEAhx4uMid8xFXdCsBajETVSTMEvKcFLQBsfsA+nr8by9rdssz8B\na07letPlOKW9Du83y0O4Unf++dC0zralBFbJhRxA6r92kd1kRrAqNS4yoIl4\n-----END CERTIFICATE-----\n",
+            "client_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA24fwTfrILs+FrKDlrib4rRR0mcKE/exm9+pWn1cIth65vP/O\nUtA5Xt3QJOtxbZEJuCgWshLNIR+Tpsn9WNLVQD9iKEL5LqF8BeINVX/pLkP06XCk\n1+Jdt9rClJbyXZhOE4laVdmSCI4pRCV7joIj1lxRggRksSkSGjrcBwBOSbhmP9yc\nFalRV3gPl1DkhyBW9GXRfQ49TA2SasmgOKpmevc9wIh509i9YdnDGoJnHRP32Nzb\nASzc07tOuy/zDNF5JIqPtLg8X/9EtNjXcq8p9X6/tsbDjhQkXQTtZtsDFkSTQf6O\nh4tyHs6AF0zcxsJt4S1HGjOBTSoxGF9AiYjlWQIDAQABAoIBAHyc+II7NYCk2bs5\nBcdKZeRRdTKGoVlF5NkbUxpVnCNM45/uEN8fRUGdZXZfk15fcwXu85sXYwtHUlfd\n1oqh+tziXcR+59VZYv4v5+O9nM5fUtlj0J6e5xXi/oq7+E26k68xS27p9qQWlkQR\nhsZJBzC57KaB+eo6ZwUunhD3UnkzPrOC+pFXqSsJgx5pzBHG2wjuCG08vwAEXpxS\nwCTK3jwxzAs7Tbxo87yRmpoQkiuFofluRiW3Xo7IWRF8cfd29CgsqRx39TJJxh/E\n+VDHyMH55QwRSVPUqC4pU8lF2NAdLw5PD35/tQM1H9Q51GFtxCNuWPPGabsDPsLX\nkX2lgiUCgYEA46F1CkALvhLdhajOL6Yt+DIz3GYLUGHKEI2s+SBEVLDhGKPbuE2m\np7ZvjoZnJFavFCLBxZI+fcvit1I7CAqDukHXHBHIIvM0H+HjoJy4tr5JyWynVax7\nNnBa8NIZa0tydXgeHjvCrfPRYhl9JRDxcXYUae5vjTQSxRFAkCj7SyMCgYEA9uQP\nycr5oETvqY2HmJPvnmvPjkxsujhvdlNTzFIX6mtxzGprhq6iOaLDLrX7rEgzrRzh\nO8qDkWG9fjQ9mQCawKyCmQQeUyxSFL67fAK7uCZO58GJJ4fOpYZr6mHV28SyO6hu\ngJ8/vpgvGrhmUp5iOw1/fhaDQ3sAjKAC9gKLY1MCgYA+KXRV1UGfqXU3L+8GkiIR\nmlwRPwit7daJiLcI3WfrnNYLrYuuG/575FU4nbmC8e0j2Y4DDznjjo8eMuWN/5kT\nfzFoJ+74pGPCpSRNUx8aQILT78kOm2iWaD5db3Kjm1npfGD1LqquaFvwpzdGrQbS\nTkWq3AM4k1Tg3iI8fASL8wKBgHCZ/2Fng4ZHKo9ID2nVPtogDZ+213fvOVbcFkH/\nxwyRSGuUtcnNaAulYiOxuEERBRCVNVyRtoPd8hDXPqjDj9EEXOPw7uu8MQtpGhUr\nIfaQ8jfdGvK+i88OibVyPZloEmoHHa7n8qi4u/MR2wkfV2nbdCRLnD5woQWCDReq\nfWwlAoGBANMb1mJs8uR4pumOsNBAXBkz+GkB9liw41hy5QgQmrGChqEDCXBqI3TL\nkZkqVzXuNMxOYsEvuTwpfiXq7Gyp8BS/vJHLaZGmrAzfLFdjDD9n1v8IBjFjk1D7\nzIhgtoueYwoKQqL6+4t05Yno0B+jZunkg3v+K9y0ewJhOuZqzUIQ\n-----END RSA PRIVATE KEY-----\n",
+            "cluster_ca_certificate": "-----BEGIN CERTIFICATE-----\nMIIDBTCCAe2gAwIBAgIIICJ/R1FbQbYwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA0MTAxOTM1MDNaFw0zNjA0MDcxOTQwMDNaMBUx\nEzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQCz0uI2Lmo6Ogsj5eGK+qW9g1ETVGkOVYUuy5raLaXUx/IIPgpmq04mW3CY\nRLv8/qM0sICJAHE168uV46xsY0sZEts9+LN9c8aMxzSSePpgjLSgnsaHluviNHds\nkiwyIjy7ThrAysKG8DQGX+ifuWDrE8G3KsV2Fn3jEHZY6RNvPwXEdQW1IIAt3oSa\n90x27fWP+XZLMzy3F9vT9oH4cdx4Hg0wvfavBHXSmW5N7S130YOPfYBiKTbzC2pB\ncovfo6a8Q8uAVUSwLDv0u3DBmb7alsKETqOOCxPFFtW92HIVlnyauJ5AoP3v7Tcl\nyGh6k3emwpAxeT8BFg1GlKd9D81rAgMBAAGjWTBXMA4GA1UdDwEB/wQEAwICpDAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBT/O4ZcPYekxeTX+kl7HxgN12+aNzAV\nBgNVHREEDjAMggprdWJlcm5ldGVzMA0GCSqGSIb3DQEBCwUAA4IBAQAY7DHoD7vk\nlpmbR5piftyVrf00sJbG/ZxhVbRLsXL9h/TEpTMiEv+DxnK/GYm8GULsNzUMSGK3\nrIfs77lAWETVJm7E0198FnR0q11h0H1rfKIi/ZIaohb0NNUKkrm8ubdi34xaLbuj\nneGjD+qDGlE4DNFFUHE21bT0jS7uektcl5LcRrEfQzR38Ebb/mB8Z9vsGgEZVBks\njU/Yuj16H5CRJLFCvbbqsFIwKjWqfP9nPcsqeiliFmceileMSiy1gJoC2e9gRZMP\n//qL9sYqMls3FNrFbhLm2/DTPAmEZReI9je6Cny/FW2utOd4IUDDmduuzS5S2P2x\ng1u3xweH4a3V\n-----END CERTIFICATE-----\n",
+            "completed": true,
+            "endpoint": "https://127.0.0.1:53208",
+            "id": "cluster2-kindest/node:v1.31.4",
+            "kind_config": [
+              {
+                "api_version": "kind.x-k8s.io/v1alpha4",
+                "containerd_config_patches": [],
+                "feature_gates": {},
+                "kind": "Cluster",
+                "networking": [],
+                "node": [
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": [],
+                    "labels": {},
+                    "role": "control-plane"
+                  },
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": [],
+                    "labels": {},
+                    "role": "worker"
+                  }
+                ],
+                "runtime_config": {}
+              }
+            ],
+            "kubeconfig": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSUNKL1IxRmJRYll3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN6MHVJMkxtbzZPZ3NqNWVHSytxVzlnMUVUVkdrT1ZZVXV5NXJhTGFYVXgvSUlQZ3BtcTA0bVczQ1kKUkx2OC9xTTBzSUNKQUhFMTY4dVY0NnhzWTBzWkV0czkrTE45YzhhTXh6U1NlUHBnakxTZ25zYUhsdXZpTkhkcwpraXd5SWp5N1RockF5c0tHOERRR1graWZ1V0RyRThHM0tzVjJGbjNqRUhaWTZSTnZQd1hFZFFXMUlJQXQzb1NhCjkweDI3ZldQK1haTE16eTNGOXZUOW9INGNkeDRIZzB3dmZhdkJIWFNtVzVON1MxMzBZT1BmWUJpS1RiekMycEIKY292Zm82YThROHVBVlVTd0xEdjB1M0RCbWI3YWxzS0VUcU9PQ3hQRkZ0VzkySElWbG55YXVKNUFvUDN2N1RjbAp5R2g2azNlbXdwQXhlVDhCRmcxR2xLZDlEODFyQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUL080WmNQWWVreGVUWCtrbDdIeGdOMTIrYU56QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVk3REhvRDd2awpscG1iUjVwaWZ0eVZyZjAwc0piRy9aeGhWYlJMc1hMOWgvVEVwVE1pRXYrRHhuSy9HWW04R1VMc056VU1TR0szCnJJZnM3N2xBV0VUVkptN0UwMTk4Rm5SMHExMWgwSDFyZktJaS9aSWFvaGIwTk5VS2tybTh1YmRpMzR4YUxidWoKbmVHakQrcURHbEU0RE5GRlVIRTIxYlQwalM3dWVrdGNsNUxjUnJFZlF6UjM4RWJiL21COFo5dnNHZ0VaVkJrcwpqVS9ZdWoxNkg1Q1JKTEZDdmJicXNGSXdLaldxZlA5blBjc3FlaWxpRm1jZWlsZU1TaXkxZ0pvQzJlOWdSWk1QCi8vcUw5c1lxTWxzM0ZOckZiaExtMi9EVFBBbUVaUmVJOWplNkNueS9GVzJ1dE9kNElVRERtZHV1elM1UzJQMngKZzF1M3h3ZUg0YTNWCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53208\n  name: kind-cluster2\ncontexts:\n- context:\n    cluster: kind-cluster2\n    user: kind-cluster2\n  name: kind-cluster2\ncurrent-context: kind-cluster2\nkind: Config\npreferences: {}\nusers:\n- name: kind-cluster2\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJTVpVc2FDKzBhb2d3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEYmgvQk4KK3NndXo0V3NvT1d1SnZpdEZIU1p3b1Q5N0diMzZsYWZWd2kySHJtOC84NVMwRGxlM2RBazYzRnRrUW00S0JheQpFczBoSDVPbXlmMVkwdFZBUDJJb1F2a3VvWHdGNGcxVmYra3VRL1RwY0tUWDRsMjMyc0tVbHZKZG1FNFRpVnBWCjJaSUlqaWxFSlh1T2dpUFdYRkdDQkdTeEtSSWFPdHdIQUU1SnVHWS8zSndWcVZGWGVBK1hVT1NISUZiMFpkRjkKRGoxTURaSnF5YUE0cW1aNjl6M0FpSG5UMkwxaDJjTWFnbWNkRS9mWTNOc0JMTnpUdTA2N0wvTU0wWGtraW8rMAp1RHhmLzBTMDJOZHlyeW4xZnIrMnhzT09GQ1JkQk8xbTJ3TVdSSk5CL282SGkzSWV6b0FYVE56R3dtM2hMVWNhCk00Rk5LakVZWDBDSmlPVlpBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRlA4N2hsdzloNlRGNU5mNgpTWHNmR0EzWGI1bzNNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUEvd1VqaklHaWRnRDdyR3FzVUVtSGdaVStHCmF3UE9kbFJhTXJGa2tCeXR0VXIvYmR3SEJHK0dESTJpeHBxWnNIVnJmdTQ5OVo5eEJCMHVRaUpQWHg5cGpySkoKS2tYdW00Z1NIVCs5N0VPRFBGeUZBdTYvMmRNY1NxcFZWVDNJNW53MWcvNnNFV014NGZ0aU81MVpPN2xXODgwaApRM3IwUnE2Zk9CNGhML1pnb0lRYXlKUzRKU0l2TmZNTG5ndGJOQnc1MXFveDNabHljZEx4Ulo5QzVYYmh1MGx6CjE0NEpzZ095Ymx1bFZFQWh4NHVNaWQ4eEZYZENzQmFqRVRWU1RNRXZLY0ZMUUJzZnNBK25yOGJ5OXJkc3N6OEIKYTA3bGV0UGxPS1c5RHU4M3kwTzRVbmYrK2RDMHpyYWxCRmJKaFJ4QTZyOTJrZDFrUnJBcU5TNHlvSWw0Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBMjRmd1RmcklMcytGcktEbHJpYjRyUlIwbWNLRS9leG05K3BXbjFjSXRoNjV2UC9PClV0QTVYdDNRSk90eGJaRUp1Q2dXc2hMTklSK1Rwc245V05MVlFEOWlLRUw1THFGOEJlSU5WWC9wTGtQMDZYQ2sKMStKZHQ5ckNsSmJ5WFpoT0U0bGFWZG1TQ0k0cFJDVjdqb0lqMWx4UmdnUmtzU2tTR2pyY0J3Qk9TYmhtUDl5YwpGYWxSVjNnUGwxRGtoeUJXOUdYUmZRNDlUQTJTYXNtZ09LcG1ldmM5d0loNTA5aTlZZG5ER29KbkhSUDMyTnpiCkFTemMwN3RPdXkvekRORjVKSXFQdExnOFgvOUV0TmpYY3E4cDlYNi90c2JEamhRa1hRVHRadHNERmtTVFFmNk8KaDR0eUhzNkFGMHpjeHNKdDRTMUhHak9CVFNveEdGOUFpWWpsV1FJREFRQUJBb0lCQUh5YytJSTdOWUNrMmJzNQpCY2RLWmVSUmRUS0dvVmxGNU5rYlV4cFZuQ05NNDUvdUVOOGZSVUdkWlhaZmsxNWZjd1h1ODVzWFl3dEhVbGZkCjFvcWgrdHppWGNSKzU5VlpZdjR2NStPOW5NNWZVdGxqMEo2ZTV4WGkvb3E3K0UyNms2OHhTMjdwOXFRV2xrUVIKaHNaSkJ6QzU3S2FCK2VvNlp3VXVuaEQzVW5relByT0MrcEZYcVNzSmd4NXB6QkhHMndqdUNHMDh2d0FFWHB4Uwp3Q1RLM2p3eHpBczdUYnhvODd5Um1wb1FraXVGb2ZsdVJpVzNYbzdJV1JGOGNmZDI5Q2dzcVJ4MzlUSkp4aC9FCitWREh5TUg1NVF3UlNWUFVxQzRwVThsRjJOQWRMdzVQRDM1L3RRTTFIOVE1MUdGdHhDTnVXUFBHYWJzRFBzTFgKa1gybGdpVUNnWUVBNDZGMUNrQUx2aExkaGFqT0w2WXQrREl6M0dZTFVHSEtFSTJzK1NCRVZMRGhHS1BidUUybQpwN1p2am9abkpGYXZGQ0xCeFpJK2Zjdml0MUk3Q0FxRHVrSFhIQkhJSXZNMEgrSGpvSnk0dHI1SnlXeW5WYXg3Ck5uQmE4TklaYTB0eWRYZ2VIanZDcmZQUllobDlKUkR4Y1hZVWFlNXZqVFFTeFJGQWtDajdTeU1DZ1lFQTl1UVAKeWNyNW9FVHZxWTJIbUpQdm5tdlBqa3hzdWpodmRsTlR6RklYNm10eHpHcHJocTZpT2FMRExyWDdyRWd6clJ6aApPOHFEa1dHOWZqUTltUUNhd0t5Q21RUWVVeXhTRkw2N2ZBSzd1Q1pPNThHSko0Zk9wWVpyNm1IVjI4U3lPNmh1CmdKOC92cGd2R3JobVVwNWlPdzEvZmhhRFEzc0FqS0FDOWdLTFkxTUNnWUErS1hSVjFVR2ZxWFUzTCs4R2tpSVIKbWx3UlB3aXQ3ZGFKaUxjSTNXZnJuTllMcll1dUcvNTc1RlU0bmJtQzhlMGoyWTRERHpuampvOGVNdVdOLzVrVApmekZvSis3NHBHUENwU1JOVXg4YVFJTFQ3OGtPbTJpV2FENWRiM0tqbTFucGZHRDFMcXF1YUZ2d3B6ZEdyUWJTClRrV3EzQU00azFUZzNpSThmQVNMOHdLQmdIQ1ovMkZuZzRaSEtvOUlEMm5WUHRvZ0RaKzIxM2Z2T1ZiY0ZrSC8KeHd5UlNHdVV0Y25OYUF1bFlpT3h1RUVSQlJDVk5WeVJ0b1BkOGhEWFBxakRqOUVFWE9Qdzd1dThNUXRwR2hVcgpJZmFROGpmZEd2SytpODhPaWJWeVBabG9FbW9ISGE3bjhxaTR1L01SMndrZlYybmJkQ1JMbkQ1d29RV0NEUmVxCmZXd2xBb0dCQU5NYjFtSnM4dVI0cHVtT3NOQkFYQmt6K0drQjlsaXc0MWh5NVFnUW1yR0NocUVEQ1hCcUkzVEwKa1prcVZ6WHVOTXhPWXNFdnVUd3BmaVhxN0d5cDhCUy92SkhMYVpHbXJBemZMRmRqREQ5bjF2OElCakZqazFENwp6SWhndG91ZVl3b0tRcUw2KzR0MDVZbm8wQitqWnVua2czditLOXkwZXdKaE91WnF6VUlRCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+            "kubeconfig_path": "/Users/naugustin/work/experiments/istio-ambient-multicluster/multi-primary-different-network/terraform/cluster2-config",
+            "name": "cluster2",
+            "node_image": "kindest/node:v1.31.4",
+            "timeouts": null,
+            "wait_for_ready": true
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjMwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kind_cluster",
+      "name": "cluster3",
+      "provider": "provider[\"registry.terraform.io/tehcyx/kind\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "client_certificate": "-----BEGIN CERTIFICATE-----\nMIIDKTCCAhGgAwIBAgIITzpUIdDHSAAwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA0MTAxOTM1MDNaFw0yNzA0MTAxOTQwMDNaMDwx\nHzAdBgNVBAoTFmt1YmVhZG06Y2x1c3Rlci1hZG1pbnMxGTAXBgNVBAMTEGt1YmVy\nbmV0ZXMtYWRtaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDY2igF\nNXPazsjYY780FkqmfpZQ151ROQtaQ0c2n1MYSLv0G5ageyslfZccJzf+iUzSK8i7\noj90ua4yKrs39F+h3wy28NLFYaV0RAeFBAIpJb6kxS34hWhGjcfgA2RehAzY4fWW\n54b32n9LoEribw8xC9t3ZQEXlQYVYFxNvdgwdnDLOrp+l24OOkFdRgp7XUbg+ZC5\n2sjZg6S2uvim2MJJv+Y+51zFnonMZ62DRGx9G0BiDJQ8SnWKGh11Tx6WjT33/sOG\n1pKVPYXS+a4o+QZ2Ax4Lit3PDmBFEqDIJz2uS++t/Wk54cL2RcNJPcU1+R71qPwQ\nvijKPsFrtsgtsVWdAgMBAAGjVjBUMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAK\nBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFH+/e19va+y3NNvB\nfb7zD62nUIJyMA0GCSqGSIb3DQEBCwUAA4IBAQAkDUa8eb+sLbDDef5keKCOWTQn\n3Dr1AhaXWnOEdCAICaUPHY+eTcghp/RV5EB9MyVMkNmzFxAuHjRU7mg9+rWcxrnB\nz3jYtaP+ENsyAN01SraovhaS9RIZqIX+DpLLMTQIfgS5hQVN46BcalKFAlVLFzPk\nZZpUAE+U933epT5Ld0ETVip8Rt9K0NvF9bKWw984tSEPj/zJZifYdlkVYbLyHR2z\n0aZ37Gqlnld58g7p203HnIOXed3ktaelse+39AIoLhJCvyT5sGMXhBPuY12yDMiA\nRpQx00ahaIYi3STaaMeOrgVaK5Ut+b/LOZn+bj85PRrTFB+LiGey1E1uwd/b\n-----END CERTIFICATE-----\n",
+            "client_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEA2NooBTVz2s7I2GO/NBZKpn6WUNedUTkLWkNHNp9TGEi79BuW\noHsrJX2XHCc3/olM0ivIu6I/dLmuMiq7N/Rfod8MtvDSxWGldEQHhQQCKSW+pMUt\n+IVoRo3H4ANkXoQM2OH1lueG99p/S6BK4m8PMQvbd2UBF5UGFWBcTb3YMHZwyzq6\nfpduDjpBXUYKe11G4PmQudrI2YOktrr4ptjCSb/mPudcxZ6JzGetg0RsfRtAYgyU\nPEp1ihoddU8elo099/7DhtaSlT2F0vmuKPkGdgMeC4rdzw5gRRKgyCc9rkvvrf1p\nOeHC9kXDST3FNfke9aj8EL4oyj7Ba7bILbFVnQIDAQABAoIBAQDPxqeV5hNt0bgr\nbddkRv+b66qHJzC7BFdWUyRGt/3cRMSiLlTyy1EaCO3isck6/781mXIqJll6s/au\nZrcf8+w1owwBtVmeeeMYNZ6m2qJfXqT+J1fWyayR/YNHprhiv0+39zljL8/oZ9iU\nU6+sqhD6Q4wzJ/oV6Fn93WhTrNUaCH5OjIXjhDZEF6BxveuuG1dpUYbnuhtOVjnf\nG9jJTemrYQaZWocxgqPg0hMOmU8XA7Tdwq087n0ZA7QZ0hKFlmkRvegC+HDNjQ/u\nHPZLzht/RVTdHoQsbobfVc6xj8lvD36q9Qfi6DrV9rQyaLQTi1lmig7uiHivlUup\nsFp/LSWBAoGBAOLC87lBRUPYLYNHZN/vhX75TW3xqTADm9dkfVSMuolAJgTYg57S\nNoh5GSr9kd2YH7W+DMRa5+JvUSAmQ9j4ygLPDYArFDYhia92sSCM+Et91WPx8qQ4\nT+zCUiz/qBuUEP1NcO+TY6yAlFBrcb4qIWGGTdv0w0XAOPI/YHzR7k2NAoGBAPTQ\nHJZ5vTLcZInt3j3MAgbhi5G9Zv/KMuFEjU106gkWu9lAv2+HZUa0/M+SSxsixpvM\nTfoaAU0wa+9/mSkH7Wxsc10apHJDU9SNwY9LR7Xu2wpQTuCteTSEKNn3nVSLrSGs\nsmT059mG2a2ZyKRL5Fd3SJP6dGVLHQJsSTtBxPxRAoGAJmq+3dDYCkFynH4Y8fNj\nW3qjCpBZiH/kBB7LOOrKo3wRtNp1mg+lG4Pgpq7k6nTeUm0LPqzkAjG3vcmdzwF/\nP/CSKfeiafVOnUJvicM4QZnk8BTKddXwfH0DbQo3Ec0I/9EB5CTFSzFRbzp0v7Hl\ni980C6Kw/n0taKUiFKOASvUCgYEAtpdBuzmxU23tzrILQCwYlulCH8EUQVOd/0YR\n3eOFaqH6GV+haJ2je8khhe+m9OZLG4iV4CPlNJ0Y49hXc7Ll8igxIw/r9w0gSTgx\nVZ7gLWGpHVgofIrmC7VGgsucHKLQznzv0TyYcDWTxVcdvuybsmDVUQlMJwCO8m+x\nbvDu6wECgYEAz8Mh2Ly3YHzJRcb+Ikjnq786vBHP7jPyIgx86hOsRqjBGtgOIx5g\n7TQhvEo5gjecwTGFLyldg/wUoRVylFoifkuGPYYWcu196kHlyAIRSUjg6J/X4WEW\nvUPY5WM+CkzbvjojBjJmHGCeL3O6NUidNOq4t7m52DeYOmI6eJ+mvrk=\n-----END RSA PRIVATE KEY-----\n",
+            "cluster_ca_certificate": "-----BEGIN CERTIFICATE-----\nMIIDBTCCAe2gAwIBAgIILEWOqdqGdnAwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA0MTAxOTM1MDNaFw0zNjA0MDcxOTQwMDNaMBUx\nEzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQCjW0MimXd4ekyaN9lKZWQBV6NT99Bi7O44Amfbv0Yiakk9C/0OjvNizpIJ\nCvZMxhof0Om6LdZRcBz4pHAsKHEYpgmfAq1waCBXHsQNxouu327lubhA8iI5cpMy\nMvhTDXkhbd4bDWuOsh+01hAI9iT/zXbdJ4hkBngi77DzLyTKkztl4sPgZYn9MR0n\nxKAIviVMiSEtLh0DSyp6oEbXai5F/pP8ZewuguOlt1lsSTDM6ir9N1qtIeSNCAQy\n+q8REwQvrQn3clm7QKlWnET7ty0oaT8gcj6fKCYuqJGaC7qcnOht24p0+t7aaDIc\n4MF1xFdlUEa7SDhRddfZRMkgrIl9AgMBAAGjWTBXMA4GA1UdDwEB/wQEAwICpDAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR/v3tfb2vstzTbwX2+8w+tp1CCcjAV\nBgNVHREEDjAMggprdWJlcm5ldGVzMA0GCSqGSIb3DQEBCwUAA4IBAQCOdMcEv2XL\nxAnl4pbPY+oPnb8s7ZAy1+CrmEhZc0VvoEF0LyKdzVjJFVZL3jfr4AGyNMcOtPdJ\n2fU64tiQA4ezWvGMZkv7rRRYXaFhUyINgCCxIcJZcPmyKPdEz/wHVYXqgpTgjCRY\nPnC1HSuJId0KzHuk9AAKcZfMo0jlK+QylCOP4DVx8LJI/wdK5HGmz1JyE91QJ8Rd\n9msZRCU+B1jf/0w+qKmdaFWAUD2UO92vl1KojTpu+xg0TcNURT3PP1gIkl4Q1FKD\njCHxInyI5jHxBWyUtKgTn+mwKba16yomPAHXV4gXbvS6jVfZ9OhQjlrODxYnfa0D\nknbXXFrxiBy5\n-----END CERTIFICATE-----\n",
+            "completed": true,
+            "endpoint": "https://127.0.0.1:53207",
+            "id": "cluster3-kindest/node:v1.31.4",
+            "kind_config": [
+              {
+                "api_version": "kind.x-k8s.io/v1alpha4",
+                "containerd_config_patches": [],
+                "feature_gates": {},
+                "kind": "Cluster",
+                "networking": [],
+                "node": [
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": [],
+                    "labels": {},
+                    "role": "control-plane"
+                  },
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": [],
+                    "labels": {},
+                    "role": "worker"
+                  }
+                ],
+                "runtime_config": {}
+              }
+            ],
+            "kubeconfig": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJTEVXT3FkcUdkbkF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNqVzBNaW1YZDRla3lhTjlsS1pXUUJWNk5UOTlCaTdPNDRBbWZidjBZaWFrazlDLzBPanZOaXpwSUoKQ3ZaTXhob2YwT202TGRaUmNCejRwSEFzS0hFWXBnbWZBcTF3YUNCWEhzUU54b3V1MzI3bHViaEE4aUk1Y3BNeQpNdmhURFhraGJkNGJEV3VPc2grMDFoQUk5aVQvelhiZEo0aGtCbmdpNzdEekx5VEtrenRsNHNQZ1pZbjlNUjBuCnhLQUl2aVZNaVNFdExoMERTeXA2b0ViWGFpNUYvcFA4WmV3dWd1T2x0MWxzU1RETTZpcjlOMXF0SWVTTkNBUXkKK3E4UkV3UXZyUW4zY2xtN1FLbFduRVQ3dHkwb2FUOGdjajZmS0NZdXFKR2FDN3Fjbk9odDI0cDArdDdhYURJYwo0TUYxeEZkbFVFYTdTRGhSZGRmWlJNa2dySWw5QWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSL3YzdGZiMnZzdHpUYndYMis4dyt0cDFDQ2NqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ09kTWNFdjJYTAp4QW5sNHBiUFkrb1BuYjhzN1pBeTErQ3JtRWhaYzBWdm9FRjBMeUtkelZqSkZWWkwzamZyNEFHeU5NY090UGRKCjJmVTY0dGlRQTRleld2R01aa3Y3clJSWVhhRmhVeUlOZ0NDeEljSlpjUG15S1BkRXovd0hWWVhxZ3BUZ2pDUlkKUG5DMUhTdUpJZDBLekh1azlBQUtjWmZNbzBqbEsrUXlsQ09QNERWeDhMSkkvd2RLNUhHbXoxSnlFOTFRSjhSZAo5bXNaUkNVK0IxamYvMHcrcUttZGFGV0FVRDJVTzkydmwxS29qVHB1K3hnMFRjTlVSVDNQUDFnSWtsNFExRktECmpDSHhJbnlJNWpIeEJXeVV0S2dUbittd0tiYTE2eW9tUEFIWFY0Z1hidlM2alZmWjlPaFFqbHJPRHhZbmZhMEQKa25iWFhGcnhpQnk1Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53207\n  name: kind-cluster3\ncontexts:\n- context:\n    cluster: kind-cluster3\n    user: kind-cluster3\n  name: kind-cluster3\ncurrent-context: kind-cluster3\nkind: Config\npreferences: {}\nusers:\n- name: kind-cluster3\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJVHpwVUlkREhTQUF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEWTJpZ0YKTlhQYXpzallZNzgwRmtxbWZwWlExNTFST1F0YVEwYzJuMU1ZU0x2MEc1YWdleXNsZlpjY0p6ZitpVXpTSzhpNwpvajkwdWE0eUtyczM5RitoM3d5MjhOTEZZYVYwUkFlRkJBSXBKYjZreFMzNGhXaEdqY2ZnQTJSZWhBelk0ZldXCjU0YjMybjlMb0VyaWJ3OHhDOXQzWlFFWGxRWVZZRnhOdmRnd2RuRExPcnArbDI0T09rRmRSZ3A3WFViZytaQzUKMnNqWmc2UzJ1dmltMk1KSnYrWSs1MXpGbm9uTVo2MkRSR3g5RzBCaURKUThTbldLR2gxMVR4NldqVDMzL3NPRwoxcEtWUFlYUythNG8rUVoyQXg0TGl0M1BEbUJGRXFESUp6MnVTKyt0L1drNTRjTDJSY05KUGNVMStSNzFxUHdRCnZpaktQc0ZydHNndHNWV2RBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkgrL2UxOXZhK3kzTk52QgpmYjd6RDYyblVJSnlNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFrRFVhOGViK3NMYkREZWY1a2VLQ09XVFFuCjNEcjFBaGFYV25PRWRDQUlDYVVQSFkrZVRjZ2hwL1JWNUVCOU15Vk1rTm16RnhBdUhqUlU3bWc5K3JXY3hybkIKejNqWXRhUCtFTnN5QU4wMVNyYW92aGFTOVJJWnFJWCtEcExMTVRRSWZnUzVoUVZONDZCY2FsS0ZBbFZMRnpQawpaWnBVQUUrVTkzM2VwVDVMZDBFVFZpcDhSdDlLME52RjliS1d3OTg0dFNFUGovekpaaWZZZGxrVlliTHlIUjJ6CjBhWjM3R3FsbmxkNThnN3AyMDNIbklPWGVkM2t0YWVsc2UrMzlBSW9MaEpDdnlUNXNHTVhoQlB1WTEyeURNaUEKUnBReDAwYWhhSVlpM1NUYWFNZU9yZ1ZhSzVVdCtiL0xPWm4rYmo4NVBSclRGQitMaUdleTFFMXV3ZC9iCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcFFJQkFBS0NBUUVBMk5vb0JUVnoyczdJMkdPL05CWktwbjZXVU5lZFVUa0xXa05ITnA5VEdFaTc5QnVXCm9Ic3JKWDJYSENjMy9vbE0waXZJdTZJL2RMbXVNaXE3Ti9SZm9kOE10dkRTeFdHbGRFUUhoUVFDS1NXK3BNVXQKK0lWb1JvM0g0QU5rWG9RTTJPSDFsdWVHOTlwL1M2Qks0bThQTVF2YmQyVUJGNVVHRldCY1RiM1lNSFp3eXpxNgpmcGR1RGpwQlhVWUtlMTFHNFBtUXVkckkyWU9rdHJyNHB0akNTYi9tUHVkY3haNkp6R2V0ZzBSc2ZSdEFZZ3lVClBFcDFpaG9kZFU4ZWxvMDk5LzdEaHRhU2xUMkYwdm11S1BrR2RnTWVDNHJkenc1Z1JSS2d5Q2M5cmt2dnJmMXAKT2VIQzlrWERTVDNGTmZrZTlhajhFTDRveWo3QmE3YklMYkZWblFJREFRQUJBb0lCQVFEUHhxZVY1aE50MGJncgpiZGRrUnYrYjY2cUhKekM3QkZkV1V5Ukd0LzNjUk1TaUxsVHl5MUVhQ08zaXNjazYvNzgxbVhJcUpsbDZzL2F1ClpyY2Y4K3cxb3d3QnRWbWVlZU1ZTlo2bTJxSmZYcVQrSjFmV3lheVIvWU5IcHJoaXYwKzM5emxqTDgvb1o5aVUKVTYrc3FoRDZRNHd6Si9vVjZGbjkzV2hUck5VYUNINU9qSVhqaERaRUY2Qnh2ZXV1RzFkcFVZYm51aHRPVmpuZgpHOWpKVGVtcllRYVpXb2N4Z3FQZzBoTU9tVThYQTdUZHdxMDg3bjBaQTdRWjBoS0ZsbWtSdmVnQytIRE5qUS91CkhQWkx6aHQvUlZUZEhvUXNib2JmVmM2eGo4bHZEMzZxOVFmaTZEclY5clF5YUxRVGkxbG1pZzd1aUhpdmxVdXAKc0ZwL0xTV0JBb0dCQU9MQzg3bEJSVVBZTFlOSFpOL3ZoWDc1VFczeHFUQURtOWRrZlZTTXVvbEFKZ1RZZzU3UwpOb2g1R1NyOWtkMllIN1crRE1SYTUrSnZVU0FtUTlqNHlnTFBEWUFyRkRZaGlhOTJzU0NNK0V0OTFXUHg4cVE0ClQrekNVaXovcUJ1VUVQMU5jTytUWTZ5QWxGQnJjYjRxSVdHR1RkdjB3MFhBT1BJL1lIelI3azJOQW9HQkFQVFEKSEpaNXZUTGNaSW50M2ozTUFnYmhpNUc5WnYvS011RkVqVTEwNmdrV3U5bEF2MitIWlVhMC9NK1NTeHNpeHB2TQpUZm9hQVUwd2ErOS9tU2tIN1d4c2MxMGFwSEpEVTlTTndZOUxSN1h1MndwUVR1Q3RlVFNFS05uM25WU0xyU0dzCnNtVDA1OW1HMmEyWnlLUkw1RmQzU0pQNmRHVkxIUUpzU1R0QnhQeFJBb0dBSm1xKzNkRFlDa0Z5bkg0WThmTmoKVzNxakNwQlppSC9rQkI3TE9PcktvM3dSdE5wMW1nK2xHNFBncHE3azZuVGVVbTBMUHF6a0FqRzN2Y21kendGLwpQL0NTS2ZlaWFmVk9uVUp2aWNNNFFabms4QlRLZGRYd2ZIMERiUW8zRWMwSS85RUI1Q1RGU3pGUmJ6cDB2N0hsCmk5ODBDNkt3L24wdGFLVWlGS09BU3ZVQ2dZRUF0cGRCdXpteFUyM3R6cklMUUN3WWx1bENIOEVVUVZPZC8wWVIKM2VPRmFxSDZHVitoYUoyamU4a2hoZSttOU9aTEc0aVY0Q1BsTkowWTQ5aFhjN0xsOGlneEl3L3I5dzBnU1RneApWWjdnTFdHcEhWZ29mSXJtQzdWR2dzdWNIS0xRem56djBUeVljRFdUeFZjZHZ1eWJzbURWVVFsTUp3Q084bSt4CmJ2RHU2d0VDZ1lFQXo4TWgyTHkzWUh6SlJjYitJa2pucTc4NnZCSFA3alB5SWd4ODZoT3NScWpCR3RnT0l4NWcKN1RRaHZFbzVnamVjd1RHRkx5bGRnL3dVb1JWeWxGb2lma3VHUFlZV2N1MTk2a0hseUFJUlNVamc2Si9YNFdFVwp2VVBZNVdNK0NremJ2am9qQmpKbUhHQ2VMM082TlVpZE5PcTR0N201MkRlWU9tSTZlSittdnJrPQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=\n",
+            "kubeconfig_path": "/Users/naugustin/work/experiments/istio-ambient-multicluster/multi-primary-different-network/terraform/cluster3-config",
+            "name": "cluster3",
+            "node_image": "kindest/node:v1.31.4",
+            "timeouts": null,
+            "wait_for_ready": true
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjMwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_namespace",
+      "name": "discovery",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster3",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "discovery",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "discovery",
+                "resource_version": "470",
+                "uid": "d018fad5-7418-4978-ab46-6f4c327f17e2"
+              }
+            ],
+            "timeouts": null,
+            "wait_for_default_service_account": false
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Namespace",
+            "name": "discovery"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjozMDAwMDAwMDAwMDB9fQ==",
+          "dependencies": [
+            "kind_cluster.cluster3"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_namespace",
+      "name": "istio_system_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "istio-system",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {
+                  "topology.istio.io/network": "network1"
+                },
+                "name": "istio-system",
+                "resource_version": "510",
+                "uid": "e90ca8f1-ecc3-4135-9921-a71330346ea6"
+              }
+            ],
+            "timeouts": null,
+            "wait_for_default_service_account": false
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Namespace",
+            "name": "istio-system"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjozMDAwMDAwMDAwMDB9fQ==",
+          "dependencies": [
+            "kind_cluster.cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_namespace",
+      "name": "istio_system_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "istio-system",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {
+                  "topology.istio.io/network": "network2"
+                },
+                "name": "istio-system",
+                "resource_version": "474",
+                "uid": "7060c249-27d7-4ab3-998c-54e54ef9a159"
+              }
+            ],
+            "timeouts": null,
+            "wait_for_default_service_account": false
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Namespace",
+            "name": "istio-system"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjozMDAwMDAwMDAwMDB9fQ==",
+          "dependencies": [
+            "kind_cluster.cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_secret",
+      "name": "cacerts_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "binary_data_wo": null,
+            "binary_data_wo_revision": null,
+            "data": {
+              "ca-cert.pem": "-----BEGIN CERTIFICATE-----\nMIIFSzCCAzOgAwIBAgIUV+OU01Q50q6YFDeIahvzS2JsjPMwDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMjgwMzE3MTcyMDIzWjA1MQ4wDAYDVQQKDAVJc3RpbzEjMCEGA1UE\nAwwaSW50ZXJtZWRpYXRlIENBIChjbHVzdGVyMSkwggIiMA0GCSqGSIb3DQEBAQUA\nA4ICDwAwggIKAoICAQDRf0ukUpVfp7m9K3eJRMCvED15oLx/8DahixCB3YbHgfeb\nKgovO+JsoFfaFKNwo96UPqls0OrcVqWmXitzuNxIokB6kznszvelrwAMflTldzkS\ns1qFmD4K58BiaTW/kn+1UyYD9HKpdjfYNqmSG6pTrn9M17GSJ4tp/mrVn3DVaEv6\nVlXEvoD8nfZwuUuE5SDCvkhIyWYwcxwUDz2O5fltCKfYVawyArwISQjW0fj/yUcz\ntnVg1uMiU3JTSNjycw/CjsjzGz3zlEYytjJ0l5evRwkh8vhP7+1ZQVa1Nbt5N01E\nhO173nn/ryCpqATk3Vvv+66I/og/pqFH949CRka0C/l/GMHI/q1Mz93fxtldEPat\ngTOu7MQFBh1AU0vwSRAPTLr8whV9LxkzWkmzeHl4Ygik8cNziiS9+RfX/6fvPbqA\nUnt1dr3Hlxpe+lQQMtTTtK9NRQUV3Tzc47Hn2VcSqao2ixqemUGICsIG7735PaCM\nk1NPrkgWkYi93enltC+uaRXxNOUvdE9DzmorreLe2NdGEAAcKxbBPURv3+uB9VR5\nNiGH3hAI2WlXNySf7k+R8H23zumE2YLPCfhzfSw3qGa7KI5KbKFmuQ3vQPrBpX+z\n0hPuadeyiL0ROo3YIMAU9zMKx433AGTWXKHLPHGgcdYHzi65npK2OurdL9D1nQID\nAQABo2YwZDAdBgNVHQ4EFgQUA6jlCrIaXIv0av9Z0ZKhT+3KxpAwHwYDVR0jBBgw\nFoAUnTF84nfVgzSuY6TK/r/+bU2jUjMwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNV\nHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggIBAAjS0FToIufl0zcWtzjlI/sl\nGu8dWuGowlaC50ouHG8KlB4oBqF6HahZn8r0SO9NAWArCDyOLlXIkMBzex6nfJXc\npIzI34zpS6BLCxw9JJSo/yGwtQUl5NEdpcODOQ2lbc4TI30b5o0pDzuxmVvC2D5n\nzZfLFHyQbR52dIjMzRo1knwhOwprIe/y0AzmqNjKoagcdxf3sAfcqZoToMaolmE7\nZQqIMZkF25+oBainZLSnbDAtMF4Y4zxYrvK9CmXbKvMyFFZhMbR8qFSNAmUt+QbL\n6znkazQWs0gwGr4J+7wHzKCTLmYwj/4hWz5IOpS7H2aF4bwcXearFNKvAR0SERCl\nTat4WFjWcSS2Nba1uMksJQ2Txnl8eFtCPSgTefTRo4St09IG2Bv+uNg6+PtYeiIB\nWYyP9uyLExfA/MkIuvqxzG12HZISLFByBbfxs/UQ18SDd3a5M0EtvrYhgyIe9uCv\nBjFRKQRLyCu4fJzWAlZRbMBd0CnTlSYgqEFwEkwPT+Y+aezkBJT3DU7Ij1xuQg9Q\nQV6iQQYV4CmnuJIzytP3ughZsKTdFEMtlOtS0hPhuJutXq9tdg32I4ITAkI2ubc8\n6QWtaCyNQCN87M6pnkg3LCCmNoc1zwHSfPIzbcccrjsTnIdfWmmeguffuYCoknzQ\n0HlGgcF4Xj+z3F30Zdzr\n-----END CERTIFICATE-----\n",
+              "ca-key.pem": "-----BEGIN PRIVATE KEY-----\n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\nFfXnYZHbOw49OrEU9WvwDp6ZpbWDew==\n-----END PRIVATE KEY-----\n",
+              "cert-chain.pem": "-----BEGIN CERTIFICATE-----\nMIIFSzCCAzOgAwIBAgIUV+OU01Q50q6YFDeIahvzS2JsjPMwDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMjgwMzE3MTcyMDIzWjA1MQ4wDAYDVQQKDAVJc3RpbzEjMCEGA1UE\nAwwaSW50ZXJtZWRpYXRlIENBIChjbHVzdGVyMSkwggIiMA0GCSqGSIb3DQEBAQUA\nA4ICDwAwggIKAoICAQDRf0ukUpVfp7m9K3eJRMCvED15oLx/8DahixCB3YbHgfeb\nKgovO+JsoFfaFKNwo96UPqls0OrcVqWmXitzuNxIokB6kznszvelrwAMflTldzkS\ns1qFmD4K58BiaTW/kn+1UyYD9HKpdjfYNqmSG6pTrn9M17GSJ4tp/mrVn3DVaEv6\nVlXEvoD8nfZwuUuE5SDCvkhIyWYwcxwUDz2O5fltCKfYVawyArwISQjW0fj/yUcz\ntnVg1uMiU3JTSNjycw/CjsjzGz3zlEYytjJ0l5evRwkh8vhP7+1ZQVa1Nbt5N01E\nhO173nn/ryCpqATk3Vvv+66I/og/pqFH949CRka0C/l/GMHI/q1Mz93fxtldEPat\ngTOu7MQFBh1AU0vwSRAPTLr8whV9LxkzWkmzeHl4Ygik8cNziiS9+RfX/6fvPbqA\nUnt1dr3Hlxpe+lQQMtTTtK9NRQUV3Tzc47Hn2VcSqao2ixqemUGICsIG7735PaCM\nk1NPrkgWkYi93enltC+uaRXxNOUvdE9DzmorreLe2NdGEAAcKxbBPURv3+uB9VR5\nNiGH3hAI2WlXNySf7k+R8H23zumE2YLPCfhzfSw3qGa7KI5KbKFmuQ3vQPrBpX+z\n0hPuadeyiL0ROo3YIMAU9zMKx433AGTWXKHLPHGgcdYHzi65npK2OurdL9D1nQID\nAQABo2YwZDAdBgNVHQ4EFgQUA6jlCrIaXIv0av9Z0ZKhT+3KxpAwHwYDVR0jBBgw\nFoAUnTF84nfVgzSuY6TK/r/+bU2jUjMwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNV\nHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggIBAAjS0FToIufl0zcWtzjlI/sl\nGu8dWuGowlaC50ouHG8KlB4oBqF6HahZn8r0SO9NAWArCDyOLlXIkMBzex6nfJXc\npIzI34zpS6BLCxw9JJSo/yGwtQUl5NEdpcODOQ2lbc4TI30b5o0pDzuxmVvC2D5n\nzZfLFHyQbR52dIjMzRo1knwhOwprIe/y0AzmqNjKoagcdxf3sAfcqZoToMaolmE7\nZQqIMZkF25+oBainZLSnbDAtMF4Y4zxYrvK9CmXbKvMyFFZhMbR8qFSNAmUt+QbL\n6znkazQWs0gwGr4J+7wHzKCTLmYwj/4hWz5IOpS7H2aF4bwcXearFNKvAR0SERCl\nTat4WFjWcSS2Nba1uMksJQ2Txnl8eFtCPSgTefTRo4St09IG2Bv+uNg6+PtYeiIB\nWYyP9uyLExfA/MkIuvqxzG12HZISLFByBbfxs/UQ18SDd3a5M0EtvrYhgyIe9uCv\nBjFRKQRLyCu4fJzWAlZRbMBd0CnTlSYgqEFwEkwPT+Y+aezkBJT3DU7Ij1xuQg9Q\nQV6iQQYV4CmnuJIzytP3ughZsKTdFEMtlOtS0hPhuJutXq9tdg32I4ITAkI2ubc8\n6QWtaCyNQCN87M6pnkg3LCCmNoc1zwHSfPIzbcccrjsTnIdfWmmeguffuYCoknzQ\n0HlGgcF4Xj+z3F30Zdzr\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIFJTCCAw2gAwIBAgIUeHYSJw5mtbG9vFp6hgH4hI72YE0wDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMzYwMzE1MTcyMDIzWjAiMQ4wDAYDVQQKDAVJc3RpbzEQMA4GA1UE\nAwwHUm9vdCBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALxgM7tJ\nz/56UaO8bey/0rb9TsYQSZwdT8KoF7Hqm3HzKBfbmVzOzFOghcWMlzswSxhKb83m\nCCzbz0QXoXy05D7jugTCqpX/8JtRfalsGzgICPRpLhbAKn2+xP4E7sXaFpz+SP5R\nDgMjWCAab5vW3/W24dyiJOunCq5ChC9BAyy0mfZypB3vS7NWCfGKpImGcDjDudpY\nZtRv1ZtaTeBVYBe2B6BABZP6HyLiU3RAXBg+Kk5g+DWcwzHVukg2pMjwXPkdLv7o\nFyJeROzdtOTX9iWeibyoPY4dK1Ofl1m/xJHJIpePkvnBKFaQGVNQhZaBRObrGLiw\nuyi5W5kt8ssKaeNwabouhwZOOV66uabONM3eH24oHxbur2rhsOMEvLbeMgPqLjzI\nz4wOZUBxPDFYV0DnvA3J807RL3bLmrovWqoOM/21xQ5qGMeQgv/O9ayMF54diyep\nEESo2cs0N3BnyaAUOm5CT+tILsF//0SLlNRHP2QJbGg97THJw6RCKJF+M/azGz2V\nQRbG+fm32pahDPXbeM5c3vaKCHXiDD59FXAiJiVgEDQz4OItOopIINlofuArmErA\nDkMqxyYjNwciE9Wr4+9EFLW7+p+kYg4GRt4jn6h03AX5yvQFrQ0T7xPIsnP6y8FB\njg7ETyaDXIRTB5o1zOUiJYUl8aXnJ+SRB6jVAgMBAAGjUzBRMB0GA1UdDgQWBBSd\nMXzid9WDNK5jpMr+v/5tTaNSMzAfBgNVHSMEGDAWgBSdMXzid9WDNK5jpMr+v/5t\nTaNSMzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQC1NSeQu1EG\neALXq08D5P9Xh/OtjE2o3jVlUbZnynuzo7qC4eKoAvk/tUZAbLA0blX/e5hKR8lh\ndiSon52mobVXl757aqlakuuQnp/URDF2XqCwXBbLsi2jVs3Pfm9uDHVD3/QSK2Ob\nME+a2/pR1GENwazklhigbYREF92by6VOjOca4uThCC0oEtz63Z4EuNFnGr4odU7Q\nCa5nZ0sZy/2tyTQGaXMJJb/AxHIOHAV5Ki//2RStmSreDO5uEIPLh4bjUFUIThVJ\ndtki/jHAIY/NNgTvL42oajmNUZBkEXrb9SuGSZb23EIRFBlF/Rjbi3ffLdY3e9kb\n7p8Ywk+BBeLe6aBGSp8RDklNYI6uNbeh/EI/YW+oVa7FXSCmzokYlng0W4qq3Gh/\n/qtN3RbDrNJN7WoC5Hktz2yZyrjlB4Nc5W9cNyCi+YcDGCl4wlGwMzZbpcipePSY\nV4np3ahqdC1LQhUi03bA943I8w8eK6AYmU11Y9Hu+6RG3RzpQcQIazINKRYe0YIg\nSIoSDv3GojMy+2FL/Vh5G2Z5Z2j7Ph2Thx7kkeDvKkVbeLzxT35Nq3064+nW3UEv\n3imDg4Jon4xwQlaOKcF/DYbtMcWrW3Pc57oKu/wKJadSrOiJc9/qo1fPGC1GlhdI\n4+IRPznCPFR/cXmq2nDG8f27C6LdrpPgow==\n-----END CERTIFICATE-----\n",
+              "root-cert.pem": "-----BEGIN CERTIFICATE-----\nMIIFJTCCAw2gAwIBAgIUeHYSJw5mtbG9vFp6hgH4hI72YE0wDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMzYwMzE1MTcyMDIzWjAiMQ4wDAYDVQQKDAVJc3RpbzEQMA4GA1UE\nAwwHUm9vdCBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALxgM7tJ\nz/56UaO8bey/0rb9TsYQSZwdT8KoF7Hqm3HzKBfbmVzOzFOghcWMlzswSxhKb83m\nCCzbz0QXoXy05D7jugTCqpX/8JtRfalsGzgICPRpLhbAKn2+xP4E7sXaFpz+SP5R\nDgMjWCAab5vW3/W24dyiJOunCq5ChC9BAyy0mfZypB3vS7NWCfGKpImGcDjDudpY\nZtRv1ZtaTeBVYBe2B6BABZP6HyLiU3RAXBg+Kk5g+DWcwzHVukg2pMjwXPkdLv7o\nFyJeROzdtOTX9iWeibyoPY4dK1Ofl1m/xJHJIpePkvnBKFaQGVNQhZaBRObrGLiw\nuyi5W5kt8ssKaeNwabouhwZOOV66uabONM3eH24oHxbur2rhsOMEvLbeMgPqLjzI\nz4wOZUBxPDFYV0DnvA3J807RL3bLmrovWqoOM/21xQ5qGMeQgv/O9ayMF54diyep\nEESo2cs0N3BnyaAUOm5CT+tILsF//0SLlNRHP2QJbGg97THJw6RCKJF+M/azGz2V\nQRbG+fm32pahDPXbeM5c3vaKCHXiDD59FXAiJiVgEDQz4OItOopIINlofuArmErA\nDkMqxyYjNwciE9Wr4+9EFLW7+p+kYg4GRt4jn6h03AX5yvQFrQ0T7xPIsnP6y8FB\njg7ETyaDXIRTB5o1zOUiJYUl8aXnJ+SRB6jVAgMBAAGjUzBRMB0GA1UdDgQWBBSd\nMXzid9WDNK5jpMr+v/5tTaNSMzAfBgNVHSMEGDAWgBSdMXzid9WDNK5jpMr+v/5t\nTaNSMzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQC1NSeQu1EG\neALXq08D5P9Xh/OtjE2o3jVlUbZnynuzo7qC4eKoAvk/tUZAbLA0blX/e5hKR8lh\ndiSon52mobVXl757aqlakuuQnp/URDF2XqCwXBbLsi2jVs3Pfm9uDHVD3/QSK2Ob\nME+a2/pR1GENwazklhigbYREF92by6VOjOca4uThCC0oEtz63Z4EuNFnGr4odU7Q\nCa5nZ0sZy/2tyTQGaXMJJb/AxHIOHAV5Ki//2RStmSreDO5uEIPLh4bjUFUIThVJ\ndtki/jHAIY/NNgTvL42oajmNUZBkEXrb9SuGSZb23EIRFBlF/Rjbi3ffLdY3e9kb\n7p8Ywk+BBeLe6aBGSp8RDklNYI6uNbeh/EI/YW+oVa7FXSCmzokYlng0W4qq3Gh/\n/qtN3RbDrNJN7WoC5Hktz2yZyrjlB4Nc5W9cNyCi+YcDGCl4wlGwMzZbpcipePSY\nV4np3ahqdC1LQhUi03bA943I8w8eK6AYmU11Y9Hu+6RG3RzpQcQIazINKRYe0YIg\nSIoSDv3GojMy+2FL/Vh5G2Z5Z2j7Ph2Thx7kkeDvKkVbeLzxT35Nq3064+nW3UEv\n3imDg4Jon4xwQlaOKcF/DYbtMcWrW3Pc57oKu/wKJadSrOiJc9/qo1fPGC1GlhdI\n4+IRPznCPFR/cXmq2nDG8f27C6LdrpPgow==\n-----END CERTIFICATE-----\n"
+            },
+            "data_wo": null,
+            "data_wo_revision": null,
+            "id": "istio-system/cacerts",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "cacerts",
+                "namespace": "istio-system",
+                "resource_version": "514",
+                "uid": "6c3eab34-5636-4407-8a56-6656fd42ff60"
+              }
+            ],
+            "timeouts": null,
+            "type": "generic",
+            "wait_for_service_account_token": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "binary_data"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "data"
+              }
+            ]
+          ],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Secret",
+            "name": "cacerts",
+            "namespace": "istio-system"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMH19",
+          "dependencies": [
+            "kind_cluster.cluster1",
+            "kubernetes_namespace.istio_system_cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_secret",
+      "name": "cacerts_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "binary_data_wo": null,
+            "binary_data_wo_revision": null,
+            "data": {
+              "ca-cert.pem": "-----BEGIN CERTIFICATE-----\nMIIFSzCCAzOgAwIBAgIUV+OU01Q50q6YFDeIahvzS2JsjPQwDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMjgwMzE3MTcyMDIzWjA1MQ4wDAYDVQQKDAVJc3RpbzEjMCEGA1UE\nAwwaSW50ZXJtZWRpYXRlIENBIChjbHVzdGVyMikwggIiMA0GCSqGSIb3DQEBAQUA\nA4ICDwAwggIKAoICAQDhTIsVP+uuw1BWxSMGUv4VKiJS3Rv95G+JgdAgYzcuRy1i\nLiDoIotqIdCJCdqQ5GHzk6j2T95AH8bE6PnmoPHNPJAL9HUzQvlr5Knl+OF2dcmL\nMzlH3aLXDKNotxx+FRgs8mN6n0WWsTMIMuZvfSbjrWUNdkq6f9GJ63LI9f6qpOZZ\nja/XVIDj00/grcE+oVIpV3bO1G3mr+eJPF40U0hpKkNei+cOAkamvXZMMphYgxBY\nB37xuDF276/BtbMik6f+CeJeWmH8WOiCpvpny+C1yRFaeyUNAPLFjSd6+KaPz1Qi\n1qZpDl1ttlidl0pvaKc1bnmSVp4nQ1QdcuyT5NQO72hVWc0yqjpiDQpY6d6mwmbR\na8dKCfIqm2KWzrOkhAktjaZFj+ksq50FnjOyZByICC3qbBYRDbSIgeV9p08/7DTG\nvmg37TNA/EufcQ2ReQBBq6izRRmpaouZsAonU1DW5ic7GrboQLHA5VFtVRKq/mA6\nOhr2hGpHXdLUTHmzLWRIGFGSG1XYx7g0YMUdMwXj6Nf9WHaSciFjvC8ir6YHkI7R\nQbs/CPB2cg9qTItrUQL6H+fZsyq+NcZyIbQ2XjE3fUqd54My7AiaErVYIFjXrx9p\np3yexghsLuVoJbB8CBc7rX3w+8OX/DZkGvV+JpcFwYcK1Gm3qMppno67ug7mjwID\nAQABo2YwZDAdBgNVHQ4EFgQUXRugRQXfaEq8O/6eretK+ADLdt4wHwYDVR0jBBgw\nFoAUnTF84nfVgzSuY6TK/r/+bU2jUjMwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNV\nHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggIBAB+zrIKsrdl4rNZS52z8eHCo\nJaF7UAoQLg2lSu/E9dLBVA08YgnHZkz1tmiLLLPHBzyJehnOjVZ/fU126OBVvf6C\npxaxVYEgQzaNcJU7Geddg/742BxH0H7++0Z7sb+WqCPlscPS2hWmr8aAzJi2++Vy\nRsSalW8RQ/xSKqtT67lnuKvq88whjpziU2jIaXDYYtVuoeBk6ncJ+7oAN6f9hj44\n1QWle2zFLwhQwXLEVk84GDuY0QnEKdntY/bSmq0IwdIZdfGGFmQrtnxn7lpH9etd\nqYcFzSTr4h+1KiJQ/wk100o6LNDFcrlSY86jiOoiJUq4/tzsUCNQRbS8Rct9SLHk\nweUmnlOBODQnylhJ/VkI1SL5gdSLbTfdPaf+iBUl+3a4tmAu9bVP02tUu97/Q6FH\nsBKLQ2m/tdhxE3I7X66Wt9JZicIoFtBrF82X5hNc3MltAWd12WkFAvXcjN2rVwjl\nyIrRbu9kLkhJ6UYKsA294u09gUsy9MF5pmil/SjtSe4S/UYXlPdLqODR6m6OXehm\nlFQwZiQ0OtXdfdfrQoK/EQZIP7lxETRHZSh8vL42r8j76fw9TYPmTDjFvYtsPzrM\no7WhYnOgWNkUD6PYNP0CXa7s5ByD9lCYG8Ew714Agp5hbDB6MrbfHu+KHmmkThKR\nJJRpFo1+hUx68VXAxaiu\n-----END CERTIFICATE-----\n",
+              "ca-key.pem": "-----BEGIN PRIVATE KEY-----\n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\ntQ11rD3nu+yUoVImClNsv4QTke+Q1WY=\n-----END PRIVATE KEY-----\n",
+              "cert-chain.pem": "-----BEGIN CERTIFICATE-----\nMIIFSzCCAzOgAwIBAgIUV+OU01Q50q6YFDeIahvzS2JsjPQwDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMjgwMzE3MTcyMDIzWjA1MQ4wDAYDVQQKDAVJc3RpbzEjMCEGA1UE\nAwwaSW50ZXJtZWRpYXRlIENBIChjbHVzdGVyMikwggIiMA0GCSqGSIb3DQEBAQUA\nA4ICDwAwggIKAoICAQDhTIsVP+uuw1BWxSMGUv4VKiJS3Rv95G+JgdAgYzcuRy1i\nLiDoIotqIdCJCdqQ5GHzk6j2T95AH8bE6PnmoPHNPJAL9HUzQvlr5Knl+OF2dcmL\nMzlH3aLXDKNotxx+FRgs8mN6n0WWsTMIMuZvfSbjrWUNdkq6f9GJ63LI9f6qpOZZ\nja/XVIDj00/grcE+oVIpV3bO1G3mr+eJPF40U0hpKkNei+cOAkamvXZMMphYgxBY\nB37xuDF276/BtbMik6f+CeJeWmH8WOiCpvpny+C1yRFaeyUNAPLFjSd6+KaPz1Qi\n1qZpDl1ttlidl0pvaKc1bnmSVp4nQ1QdcuyT5NQO72hVWc0yqjpiDQpY6d6mwmbR\na8dKCfIqm2KWzrOkhAktjaZFj+ksq50FnjOyZByICC3qbBYRDbSIgeV9p08/7DTG\nvmg37TNA/EufcQ2ReQBBq6izRRmpaouZsAonU1DW5ic7GrboQLHA5VFtVRKq/mA6\nOhr2hGpHXdLUTHmzLWRIGFGSG1XYx7g0YMUdMwXj6Nf9WHaSciFjvC8ir6YHkI7R\nQbs/CPB2cg9qTItrUQL6H+fZsyq+NcZyIbQ2XjE3fUqd54My7AiaErVYIFjXrx9p\np3yexghsLuVoJbB8CBc7rX3w+8OX/DZkGvV+JpcFwYcK1Gm3qMppno67ug7mjwID\nAQABo2YwZDAdBgNVHQ4EFgQUXRugRQXfaEq8O/6eretK+ADLdt4wHwYDVR0jBBgw\nFoAUnTF84nfVgzSuY6TK/r/+bU2jUjMwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNV\nHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggIBAB+zrIKsrdl4rNZS52z8eHCo\nJaF7UAoQLg2lSu/E9dLBVA08YgnHZkz1tmiLLLPHBzyJehnOjVZ/fU126OBVvf6C\npxaxVYEgQzaNcJU7Geddg/742BxH0H7++0Z7sb+WqCPlscPS2hWmr8aAzJi2++Vy\nRsSalW8RQ/xSKqtT67lnuKvq88whjpziU2jIaXDYYtVuoeBk6ncJ+7oAN6f9hj44\n1QWle2zFLwhQwXLEVk84GDuY0QnEKdntY/bSmq0IwdIZdfGGFmQrtnxn7lpH9etd\nqYcFzSTr4h+1KiJQ/wk100o6LNDFcrlSY86jiOoiJUq4/tzsUCNQRbS8Rct9SLHk\nweUmnlOBODQnylhJ/VkI1SL5gdSLbTfdPaf+iBUl+3a4tmAu9bVP02tUu97/Q6FH\nsBKLQ2m/tdhxE3I7X66Wt9JZicIoFtBrF82X5hNc3MltAWd12WkFAvXcjN2rVwjl\nyIrRbu9kLkhJ6UYKsA294u09gUsy9MF5pmil/SjtSe4S/UYXlPdLqODR6m6OXehm\nlFQwZiQ0OtXdfdfrQoK/EQZIP7lxETRHZSh8vL42r8j76fw9TYPmTDjFvYtsPzrM\no7WhYnOgWNkUD6PYNP0CXa7s5ByD9lCYG8Ew714Agp5hbDB6MrbfHu+KHmmkThKR\nJJRpFo1+hUx68VXAxaiu\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIFJTCCAw2gAwIBAgIUeHYSJw5mtbG9vFp6hgH4hI72YE0wDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMzYwMzE1MTcyMDIzWjAiMQ4wDAYDVQQKDAVJc3RpbzEQMA4GA1UE\nAwwHUm9vdCBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALxgM7tJ\nz/56UaO8bey/0rb9TsYQSZwdT8KoF7Hqm3HzKBfbmVzOzFOghcWMlzswSxhKb83m\nCCzbz0QXoXy05D7jugTCqpX/8JtRfalsGzgICPRpLhbAKn2+xP4E7sXaFpz+SP5R\nDgMjWCAab5vW3/W24dyiJOunCq5ChC9BAyy0mfZypB3vS7NWCfGKpImGcDjDudpY\nZtRv1ZtaTeBVYBe2B6BABZP6HyLiU3RAXBg+Kk5g+DWcwzHVukg2pMjwXPkdLv7o\nFyJeROzdtOTX9iWeibyoPY4dK1Ofl1m/xJHJIpePkvnBKFaQGVNQhZaBRObrGLiw\nuyi5W5kt8ssKaeNwabouhwZOOV66uabONM3eH24oHxbur2rhsOMEvLbeMgPqLjzI\nz4wOZUBxPDFYV0DnvA3J807RL3bLmrovWqoOM/21xQ5qGMeQgv/O9ayMF54diyep\nEESo2cs0N3BnyaAUOm5CT+tILsF//0SLlNRHP2QJbGg97THJw6RCKJF+M/azGz2V\nQRbG+fm32pahDPXbeM5c3vaKCHXiDD59FXAiJiVgEDQz4OItOopIINlofuArmErA\nDkMqxyYjNwciE9Wr4+9EFLW7+p+kYg4GRt4jn6h03AX5yvQFrQ0T7xPIsnP6y8FB\njg7ETyaDXIRTB5o1zOUiJYUl8aXnJ+SRB6jVAgMBAAGjUzBRMB0GA1UdDgQWBBSd\nMXzid9WDNK5jpMr+v/5tTaNSMzAfBgNVHSMEGDAWgBSdMXzid9WDNK5jpMr+v/5t\nTaNSMzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQC1NSeQu1EG\neALXq08D5P9Xh/OtjE2o3jVlUbZnynuzo7qC4eKoAvk/tUZAbLA0blX/e5hKR8lh\ndiSon52mobVXl757aqlakuuQnp/URDF2XqCwXBbLsi2jVs3Pfm9uDHVD3/QSK2Ob\nME+a2/pR1GENwazklhigbYREF92by6VOjOca4uThCC0oEtz63Z4EuNFnGr4odU7Q\nCa5nZ0sZy/2tyTQGaXMJJb/AxHIOHAV5Ki//2RStmSreDO5uEIPLh4bjUFUIThVJ\ndtki/jHAIY/NNgTvL42oajmNUZBkEXrb9SuGSZb23EIRFBlF/Rjbi3ffLdY3e9kb\n7p8Ywk+BBeLe6aBGSp8RDklNYI6uNbeh/EI/YW+oVa7FXSCmzokYlng0W4qq3Gh/\n/qtN3RbDrNJN7WoC5Hktz2yZyrjlB4Nc5W9cNyCi+YcDGCl4wlGwMzZbpcipePSY\nV4np3ahqdC1LQhUi03bA943I8w8eK6AYmU11Y9Hu+6RG3RzpQcQIazINKRYe0YIg\nSIoSDv3GojMy+2FL/Vh5G2Z5Z2j7Ph2Thx7kkeDvKkVbeLzxT35Nq3064+nW3UEv\n3imDg4Jon4xwQlaOKcF/DYbtMcWrW3Pc57oKu/wKJadSrOiJc9/qo1fPGC1GlhdI\n4+IRPznCPFR/cXmq2nDG8f27C6LdrpPgow==\n-----END CERTIFICATE-----\n",
+              "root-cert.pem": "-----BEGIN CERTIFICATE-----\nMIIFJTCCAw2gAwIBAgIUeHYSJw5mtbG9vFp6hgH4hI72YE0wDQYJKoZIhvcNAQEL\nBQAwIjEOMAwGA1UECgwFSXN0aW8xEDAOBgNVBAMMB1Jvb3QgQ0EwHhcNMjYwMzE4\nMTcyMDIzWhcNMzYwMzE1MTcyMDIzWjAiMQ4wDAYDVQQKDAVJc3RpbzEQMA4GA1UE\nAwwHUm9vdCBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALxgM7tJ\nz/56UaO8bey/0rb9TsYQSZwdT8KoF7Hqm3HzKBfbmVzOzFOghcWMlzswSxhKb83m\nCCzbz0QXoXy05D7jugTCqpX/8JtRfalsGzgICPRpLhbAKn2+xP4E7sXaFpz+SP5R\nDgMjWCAab5vW3/W24dyiJOunCq5ChC9BAyy0mfZypB3vS7NWCfGKpImGcDjDudpY\nZtRv1ZtaTeBVYBe2B6BABZP6HyLiU3RAXBg+Kk5g+DWcwzHVukg2pMjwXPkdLv7o\nFyJeROzdtOTX9iWeibyoPY4dK1Ofl1m/xJHJIpePkvnBKFaQGVNQhZaBRObrGLiw\nuyi5W5kt8ssKaeNwabouhwZOOV66uabONM3eH24oHxbur2rhsOMEvLbeMgPqLjzI\nz4wOZUBxPDFYV0DnvA3J807RL3bLmrovWqoOM/21xQ5qGMeQgv/O9ayMF54diyep\nEESo2cs0N3BnyaAUOm5CT+tILsF//0SLlNRHP2QJbGg97THJw6RCKJF+M/azGz2V\nQRbG+fm32pahDPXbeM5c3vaKCHXiDD59FXAiJiVgEDQz4OItOopIINlofuArmErA\nDkMqxyYjNwciE9Wr4+9EFLW7+p+kYg4GRt4jn6h03AX5yvQFrQ0T7xPIsnP6y8FB\njg7ETyaDXIRTB5o1zOUiJYUl8aXnJ+SRB6jVAgMBAAGjUzBRMB0GA1UdDgQWBBSd\nMXzid9WDNK5jpMr+v/5tTaNSMzAfBgNVHSMEGDAWgBSdMXzid9WDNK5jpMr+v/5t\nTaNSMzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQC1NSeQu1EG\neALXq08D5P9Xh/OtjE2o3jVlUbZnynuzo7qC4eKoAvk/tUZAbLA0blX/e5hKR8lh\ndiSon52mobVXl757aqlakuuQnp/URDF2XqCwXBbLsi2jVs3Pfm9uDHVD3/QSK2Ob\nME+a2/pR1GENwazklhigbYREF92by6VOjOca4uThCC0oEtz63Z4EuNFnGr4odU7Q\nCa5nZ0sZy/2tyTQGaXMJJb/AxHIOHAV5Ki//2RStmSreDO5uEIPLh4bjUFUIThVJ\ndtki/jHAIY/NNgTvL42oajmNUZBkEXrb9SuGSZb23EIRFBlF/Rjbi3ffLdY3e9kb\n7p8Ywk+BBeLe6aBGSp8RDklNYI6uNbeh/EI/YW+oVa7FXSCmzokYlng0W4qq3Gh/\n/qtN3RbDrNJN7WoC5Hktz2yZyrjlB4Nc5W9cNyCi+YcDGCl4wlGwMzZbpcipePSY\nV4np3ahqdC1LQhUi03bA943I8w8eK6AYmU11Y9Hu+6RG3RzpQcQIazINKRYe0YIg\nSIoSDv3GojMy+2FL/Vh5G2Z5Z2j7Ph2Thx7kkeDvKkVbeLzxT35Nq3064+nW3UEv\n3imDg4Jon4xwQlaOKcF/DYbtMcWrW3Pc57oKu/wKJadSrOiJc9/qo1fPGC1GlhdI\n4+IRPznCPFR/cXmq2nDG8f27C6LdrpPgow==\n-----END CERTIFICATE-----\n"
+            },
+            "data_wo": null,
+            "data_wo_revision": null,
+            "id": "istio-system/cacerts",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "cacerts",
+                "namespace": "istio-system",
+                "resource_version": "477",
+                "uid": "1109f5ab-b535-4599-a638-9f61f5b8b544"
+              }
+            ],
+            "timeouts": null,
+            "type": "generic",
+            "wait_for_service_account_token": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "binary_data"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "data"
+              }
+            ]
+          ],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Secret",
+            "name": "cacerts",
+            "namespace": "istio-system"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMH19",
+          "dependencies": [
+            "kind_cluster.cluster2",
+            "kubernetes_namespace.istio_system_cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_secret",
+      "name": "remote_kubeconfigs",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster3",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "binary_data_wo": null,
+            "binary_data_wo_revision": null,
+            "data": {
+              "cluster1": "apiVersion: v1\nkind: Config\nclusters:\n- name: cluster1\n  cluster:\n    server: https://cluster1-control-plane:6443\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSFhVWjVwU1BzNHN3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsdVdXUDlwc1hTQWRES0hwRWVGUGFSUW9BM29wRGJYQXF2blovQWF5STErSEdXbGRoVGhuWTYvQTcKUkVWN2E5VzlUcG9SOVBScmVudXJjL1Y4aGFXL2pOY1BKWHk4RTR3L2czMjJSK09UckR0UHU2dFFxM1FGR2VqTQovREVXN2hWMUM0elVEeER4NE5CaDUxKzJoSnBRdEtPN1Zna0RDRVdISWR3Zkk0ZzFXbjA1OVdpbUlpaVZEYTBVCnNRK0hwUzJUVDRBTXk2SGdMakhxakVCNGhEcnBRU05WYStHd3ZyeWJjd0pOZzU1a1NHQkN6MS9OSnd4Tm1pOHQKWmN0VEtkQ1hIQ2VTaWFDdU1ZTm5IVDQ5aG5KUEpzZnI1SzZlRnJYbkJJQU5zbnZrMDBTbUIybytnRDlXSzZ5VAplZklSaGlFNTRXUm1SajltcGRJVDF0UzlEVWpIQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTY3MydEc5VmFKSzRjeGtva2YvWTM4dnRSa2d6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVlHOHM2ZGMzTwpFVloralFMSmhYUVpMK3pVanA5dkJrZnU4aGN0SUtqZWZSTmlnZVJpRXp1T25pSlErY3pVanlaOG5kVWc2REVDCi9FU2FVUmVKRGVOZDVrS0NYUkhiN0FmVGtMNjZmZ0tVWXJvN3Y2N0lwVGpnS2dxV3JtckZQRTE5eTQ1ckZ4Q04KTG1URDlnRHJmNXpobVlETm9MSVN1S2p3VHJrR01aZERRbi9jdytENk1BaTM3QklqeVd1bTFUd21CdzBTRVRjcQo0M3RBa0RBSjFBZk0ycE1NUlc4RVBueEVibGtSY2pyUGVsZkhpQXFWeERzdGsvdVdSVnB5UnBJd3RMamtrcjduCkFUUDNDZkN4dzJXLzRiL2pxWEFPNndFd1dIalR6L0JsdkRRNTkxNm9wOFQxV1dFQk9ubUFwUDBHNW5TZGg5MmEKTkN2b2xiaEhKc0VHCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\nusers:\n- name: cluster1\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJRjNJRFA1Z1F2Z1l3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDbXpLMkgKRnFINERDOEpiMzBkbjJOWG9JY0c1M2VnR2tFTnJQaUw2TkV6aEttOXNoZkpiaFFlRzVUWUlLUmlTN25XQlFmTQozUDQvSlE5TzJrRC94STJHSFZudnpsakxqa3E5bzVsRGNMdGxlK3dUbld6MlJ4L2lrdXo3SUlyZkZWWWhRbUZrCmExNWhBN3QwcERYUjhtNmw5NUlZQUx6TnN6elo5TlUvSC9RbFpGQnNmcDBWeitaMzFpc3VNRlB5aGN1Z1RYQlIKWlkrc3k0WDRicnlnNEZQcnduUEd2R283QzVtQkpJMGsraG4xMldrQlhFN0MzOXZqSFQyLzVQOGs4bytuZldkbApkSDQ3UGJ2aDgwMVNGSlNyNzJHbkpDOHp6bitlU0g0bEh5QXl4aVVwbXdRRU1iWnVLdWhPd015cTNCSEt2YW1sCktPVEtTYmQySjFNeHBLNFZBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkp5emEwYjFWb2tyaHpHUwppUi85amZ5KzFHU0RNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFlS3U2SDczOThycis1MkZva2FKVThTVThyCk1mTWcrUDI5TDRpN1BzVFlNRW5zOHFVN24yUU9rU0NpTFY4ZFlCUzNGME5XeFRRSWsrTUhNemF5bHJlLzl2NFYKdW9yTHlETjdpUE9wRy96QlR2c1pKZ1o5VXg1RTVHNkgzaWp6VEhtNGl2U0dzMlUrSlJnNDhtSkdwWHNScGpBNQpxRFNBS1U0RlJRdXZUakFMN01HbEV2NDYvQlIwOXZyQ3FLNGFkMnNBSDdKRWJYSnlpZnMxeGdrMzMyRVNwUUt1ClRwY0Z2a2czS2dtT2Z2QTl2R01JRUJpeTlFMmpMa2cydS84UHZIQ0ExS3dmRC9VSjNjYTc3SFQzREhFZlFPOWUKTWw0cE9iVE5ORlJCeUFpQURBZkNNejNXZEwvdmY1S1ZpbmxMWk1HWGJ4QjhVREhXN1dlSG9lUVpIeVlECi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBcHN5dGh4YWgrQXd2Q1c5OUhaOWpWNkNIQnVkM29CcEJEYXo0aStqUk00U3B2YklYCnlXNFVIaHVVMkNDa1lrdTUxZ1VIek56K1B5VVBUdHBBLzhTTmhoMVo3ODVZeTQ1S3ZhT1pRM0M3Wlh2c0U1MXMKOWtjZjRwTHMreUNLM3hWV0lVSmhaR3RlWVFPN2RLUTEwZkp1cGZlU0dBQzh6Yk04MmZUVlB4LzBKV1JRYkg2ZApGYy9tZDlZckxqQlQ4b1hMb0Uxd1VXV1ByTXVGK0c2OG9PQlQ2OEp6eHJ4cU93dVpnU1NOSlBvWjlkbHBBVnhPCnd0L2I0eDA5ditUL0pQS1BwMzFuWlhSK096Mjc0Zk5OVWhTVXErOWhweVF2TTg1L25raCtKUjhnTXNZbEtac0UKQkRHMmJpcm9Uc0RNcXR3UnlyMnBwU2preWttM2RpZFRNYVN1RlFJREFRQUJBb0lCQVFDZXh2MTBOMjR0QWVRUQpsa2xDVm9RcFdNelFIS3g2QWlQazBiK3k1d2VsZytaVWhlQXd4WkZ1NjVCdmYvc2ErcnpHNXZqNjRXOUFTcFhjCjJOUEE1S2hYZno4cWtJRmtHMm80UlRCU3kxQUhsY1F2RTg4eVRKZ2toUG9EUDRJU1Eydytzc0trNWJQc283SGcKb2FQOTIwbkt3UFVYMWpQamwzZ1lmZ0EwVzhWN2hRMWdsK09BaGpPRXJJU21UWERCMUFrbjB1Yzl4cmN5QWlkYgp6RHRSRS9QZkFTbDhVclROMXVTVmFpMXpyQk8waDNHa3RYVkdzVmViUDN0aU05aURHKys2T2w4a3ZWSzNQTTUzCnNWWkthSzdHVHRjOHEvZGVvZTFUSjlNY0d4ODdjd0Z1MlhxTU1iYmt2Y3Q3eTV3VVNQUDR2UEhlNXdRN1RhSm4KSGxLZ2JpdXRBb0dCQU1Xb3lWRFZ3N2ZaNjZzUkI5YkFRY011czF1SEZ4ZnBIOWdndlZ3ZXp3cmZLcDZYeFZUMAprWGY2UkpNRVM4WThEb052WmEyMmdSQkxVUWxTa25FMElJcmVXY2N1UFJYL1ZSMW1YY2JJTVR2aFdyUTlaMmdQCjJyN21Id0w1RlRqWC9ZVGQyWE9HL2w5T1g4TjFlSkgwQjZkWlVjcVA4ZFpuWFBrekNTaXRmY0hQQW9HQkFOZ0kKSFFDY29oT1FDckVFUXZUcWxPancvZ1RSQXd0d29DbTZtOHpQMHhpanlML0pHaGtpYnNkZjY3OGdueEI4a1NXVApwQzQ5RXFMaUlRZmlZU0dsNzl4Q0krRDArcWI0alFSSUZkZjRkRW1mNk5iSFlTMmk3M0N0NWdCVEJvdXUzVTN2CkpMaVIzVzJUc3hpaFRBbTMzUnd6c1NjOGVXVEY1eWpVQzBkS2xIN2JBb0dBYkdhaThjZ3FiRndCV1hJZm9IRVUKSDkwdTFGV0VIc0xsaWZ4Nm5WandKNEE0dVgxMjVaNnpZTjlLV0c2VXVBVWIySTF4Y0JHVk9zQnprdTlNRFBXUAptMWxTVjJCT2RBL3lPQXQ2QnBpb0Y3VUJyN08xVUdiUmlyeGQ2WjE5UEEySXBpT2RMRFN1c01va3p1ZFAxb3ZFCjNzeW5oTFhvNWJNT1ZFVGZFd1lDNEJVQ2dZQlhSZy9SYTNYZXlWWklaUnhYclYwekxnaXhFVzlWYzg2QWpTN2IKOHltb3pxSVBPTU1lWEZhOG5QZTBZdzFmcjdORHB2Mnc0R05qQWsrdHk3ckp5U3U1bzg2eTFzVmNKeFZ4SVY0Ugp2Z0hjcklsNEcxd2EvN1FUcFcxQnZFanNyVndpVy9aTnlqL1dRTkVkcGl2OTBSVzJpdnVLaWxmUWFsTVVuM1ZlCis3WTUrUUtCZ0NPakJIZjV3YmVtaHliRlRmc0VtMk9xdXd2eUxWeTFsbUZGY0NEQ1pNODRTbDN4MHpwVWtmLzUKZWx2bHByajBoSm44dVB6RDNkZFduNG1vd0FXRkFxZE1sL0ZNb1BIK29wZTlMNEE3aUtuWnB3UHErMW03UzRtWQpSbExnVG11RkIxcVl4ZFViR2doUjFvcHdiZzBQazFmdGI2T1kzbW9nYjZnWHNoU2JrYUVUCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\ncontexts:\n- name: cluster1\n  context:\n    cluster: cluster1\n    user: cluster1\ncurrent-context: cluster1\n",
+              "cluster2": "apiVersion: v1\nkind: Config\nclusters:\n- name: cluster2\n  cluster:\n    server: https://cluster2-control-plane:6443\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSUNKL1IxRmJRYll3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN6MHVJMkxtbzZPZ3NqNWVHSytxVzlnMUVUVkdrT1ZZVXV5NXJhTGFYVXgvSUlQZ3BtcTA0bVczQ1kKUkx2OC9xTTBzSUNKQUhFMTY4dVY0NnhzWTBzWkV0czkrTE45YzhhTXh6U1NlUHBnakxTZ25zYUhsdXZpTkhkcwpraXd5SWp5N1RockF5c0tHOERRR1graWZ1V0RyRThHM0tzVjJGbjNqRUhaWTZSTnZQd1hFZFFXMUlJQXQzb1NhCjkweDI3ZldQK1haTE16eTNGOXZUOW9INGNkeDRIZzB3dmZhdkJIWFNtVzVON1MxMzBZT1BmWUJpS1RiekMycEIKY292Zm82YThROHVBVlVTd0xEdjB1M0RCbWI3YWxzS0VUcU9PQ3hQRkZ0VzkySElWbG55YXVKNUFvUDN2N1RjbAp5R2g2azNlbXdwQXhlVDhCRmcxR2xLZDlEODFyQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUL080WmNQWWVreGVUWCtrbDdIeGdOMTIrYU56QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVk3REhvRDd2awpscG1iUjVwaWZ0eVZyZjAwc0piRy9aeGhWYlJMc1hMOWgvVEVwVE1pRXYrRHhuSy9HWW04R1VMc056VU1TR0szCnJJZnM3N2xBV0VUVkptN0UwMTk4Rm5SMHExMWgwSDFyZktJaS9aSWFvaGIwTk5VS2tybTh1YmRpMzR4YUxidWoKbmVHakQrcURHbEU0RE5GRlVIRTIxYlQwalM3dWVrdGNsNUxjUnJFZlF6UjM4RWJiL21COFo5dnNHZ0VaVkJrcwpqVS9ZdWoxNkg1Q1JKTEZDdmJicXNGSXdLaldxZlA5blBjc3FlaWxpRm1jZWlsZU1TaXkxZ0pvQzJlOWdSWk1QCi8vcUw5c1lxTWxzM0ZOckZiaExtMi9EVFBBbUVaUmVJOWplNkNueS9GVzJ1dE9kNElVRERtZHV1elM1UzJQMngKZzF1M3h3ZUg0YTNWCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\nusers:\n- name: cluster2\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJTVpVc2FDKzBhb2d3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEYmgvQk4KK3NndXo0V3NvT1d1SnZpdEZIU1p3b1Q5N0diMzZsYWZWd2kySHJtOC84NVMwRGxlM2RBazYzRnRrUW00S0JheQpFczBoSDVPbXlmMVkwdFZBUDJJb1F2a3VvWHdGNGcxVmYra3VRL1RwY0tUWDRsMjMyc0tVbHZKZG1FNFRpVnBWCjJaSUlqaWxFSlh1T2dpUFdYRkdDQkdTeEtSSWFPdHdIQUU1SnVHWS8zSndWcVZGWGVBK1hVT1NISUZiMFpkRjkKRGoxTURaSnF5YUE0cW1aNjl6M0FpSG5UMkwxaDJjTWFnbWNkRS9mWTNOc0JMTnpUdTA2N0wvTU0wWGtraW8rMAp1RHhmLzBTMDJOZHlyeW4xZnIrMnhzT09GQ1JkQk8xbTJ3TVdSSk5CL282SGkzSWV6b0FYVE56R3dtM2hMVWNhCk00Rk5LakVZWDBDSmlPVlpBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRlA4N2hsdzloNlRGNU5mNgpTWHNmR0EzWGI1bzNNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUEvd1VqaklHaWRnRDdyR3FzVUVtSGdaVStHCmF3UE9kbFJhTXJGa2tCeXR0VXIvYmR3SEJHK0dESTJpeHBxWnNIVnJmdTQ5OVo5eEJCMHVRaUpQWHg5cGpySkoKS2tYdW00Z1NIVCs5N0VPRFBGeUZBdTYvMmRNY1NxcFZWVDNJNW53MWcvNnNFV014NGZ0aU81MVpPN2xXODgwaApRM3IwUnE2Zk9CNGhML1pnb0lRYXlKUzRKU0l2TmZNTG5ndGJOQnc1MXFveDNabHljZEx4Ulo5QzVYYmh1MGx6CjE0NEpzZ095Ymx1bFZFQWh4NHVNaWQ4eEZYZENzQmFqRVRWU1RNRXZLY0ZMUUJzZnNBK25yOGJ5OXJkc3N6OEIKYTA3bGV0UGxPS1c5RHU4M3kwTzRVbmYrK2RDMHpyYWxCRmJKaFJ4QTZyOTJrZDFrUnJBcU5TNHlvSWw0Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBMjRmd1RmcklMcytGcktEbHJpYjRyUlIwbWNLRS9leG05K3BXbjFjSXRoNjV2UC9PClV0QTVYdDNRSk90eGJaRUp1Q2dXc2hMTklSK1Rwc245V05MVlFEOWlLRUw1THFGOEJlSU5WWC9wTGtQMDZYQ2sKMStKZHQ5ckNsSmJ5WFpoT0U0bGFWZG1TQ0k0cFJDVjdqb0lqMWx4UmdnUmtzU2tTR2pyY0J3Qk9TYmhtUDl5YwpGYWxSVjNnUGwxRGtoeUJXOUdYUmZRNDlUQTJTYXNtZ09LcG1ldmM5d0loNTA5aTlZZG5ER29KbkhSUDMyTnpiCkFTemMwN3RPdXkvekRORjVKSXFQdExnOFgvOUV0TmpYY3E4cDlYNi90c2JEamhRa1hRVHRadHNERmtTVFFmNk8KaDR0eUhzNkFGMHpjeHNKdDRTMUhHak9CVFNveEdGOUFpWWpsV1FJREFRQUJBb0lCQUh5YytJSTdOWUNrMmJzNQpCY2RLWmVSUmRUS0dvVmxGNU5rYlV4cFZuQ05NNDUvdUVOOGZSVUdkWlhaZmsxNWZjd1h1ODVzWFl3dEhVbGZkCjFvcWgrdHppWGNSKzU5VlpZdjR2NStPOW5NNWZVdGxqMEo2ZTV4WGkvb3E3K0UyNms2OHhTMjdwOXFRV2xrUVIKaHNaSkJ6QzU3S2FCK2VvNlp3VXVuaEQzVW5relByT0MrcEZYcVNzSmd4NXB6QkhHMndqdUNHMDh2d0FFWHB4Uwp3Q1RLM2p3eHpBczdUYnhvODd5Um1wb1FraXVGb2ZsdVJpVzNYbzdJV1JGOGNmZDI5Q2dzcVJ4MzlUSkp4aC9FCitWREh5TUg1NVF3UlNWUFVxQzRwVThsRjJOQWRMdzVQRDM1L3RRTTFIOVE1MUdGdHhDTnVXUFBHYWJzRFBzTFgKa1gybGdpVUNnWUVBNDZGMUNrQUx2aExkaGFqT0w2WXQrREl6M0dZTFVHSEtFSTJzK1NCRVZMRGhHS1BidUUybQpwN1p2am9abkpGYXZGQ0xCeFpJK2Zjdml0MUk3Q0FxRHVrSFhIQkhJSXZNMEgrSGpvSnk0dHI1SnlXeW5WYXg3Ck5uQmE4TklaYTB0eWRYZ2VIanZDcmZQUllobDlKUkR4Y1hZVWFlNXZqVFFTeFJGQWtDajdTeU1DZ1lFQTl1UVAKeWNyNW9FVHZxWTJIbUpQdm5tdlBqa3hzdWpodmRsTlR6RklYNm10eHpHcHJocTZpT2FMRExyWDdyRWd6clJ6aApPOHFEa1dHOWZqUTltUUNhd0t5Q21RUWVVeXhTRkw2N2ZBSzd1Q1pPNThHSko0Zk9wWVpyNm1IVjI4U3lPNmh1CmdKOC92cGd2R3JobVVwNWlPdzEvZmhhRFEzc0FqS0FDOWdLTFkxTUNnWUErS1hSVjFVR2ZxWFUzTCs4R2tpSVIKbWx3UlB3aXQ3ZGFKaUxjSTNXZnJuTllMcll1dUcvNTc1RlU0bmJtQzhlMGoyWTRERHpuampvOGVNdVdOLzVrVApmekZvSis3NHBHUENwU1JOVXg4YVFJTFQ3OGtPbTJpV2FENWRiM0tqbTFucGZHRDFMcXF1YUZ2d3B6ZEdyUWJTClRrV3EzQU00azFUZzNpSThmQVNMOHdLQmdIQ1ovMkZuZzRaSEtvOUlEMm5WUHRvZ0RaKzIxM2Z2T1ZiY0ZrSC8KeHd5UlNHdVV0Y25OYUF1bFlpT3h1RUVSQlJDVk5WeVJ0b1BkOGhEWFBxakRqOUVFWE9Qdzd1dThNUXRwR2hVcgpJZmFROGpmZEd2SytpODhPaWJWeVBabG9FbW9ISGE3bjhxaTR1L01SMndrZlYybmJkQ1JMbkQ1d29RV0NEUmVxCmZXd2xBb0dCQU5NYjFtSnM4dVI0cHVtT3NOQkFYQmt6K0drQjlsaXc0MWh5NVFnUW1yR0NocUVEQ1hCcUkzVEwKa1prcVZ6WHVOTXhPWXNFdnVUd3BmaVhxN0d5cDhCUy92SkhMYVpHbXJBemZMRmRqREQ5bjF2OElCakZqazFENwp6SWhndG91ZVl3b0tRcUw2KzR0MDVZbm8wQitqWnVua2czditLOXkwZXdKaE91WnF6VUlRCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\ncontexts:\n- name: cluster2\n  context:\n    cluster: cluster2\n    user: cluster2\ncurrent-context: cluster2\n"
+            },
+            "data_wo": null,
+            "data_wo_revision": null,
+            "id": "discovery/remote-kubeconfigs",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "remote-kubeconfigs",
+                "namespace": "discovery",
+                "resource_version": "473",
+                "uid": "6acf8e70-30a7-4676-81e3-86431ea8fef7"
+              }
+            ],
+            "timeouts": null,
+            "type": "Opaque",
+            "wait_for_service_account_token": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "binary_data"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "data"
+              }
+            ]
+          ],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Secret",
+            "name": "remote-kubeconfigs",
+            "namespace": "discovery"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMH19",
+          "dependencies": [
+            "kind_cluster.cluster1",
+            "kind_cluster.cluster2",
+            "kind_cluster.cluster3",
+            "kubernetes_namespace.discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_secret",
+      "name": "remote_secret_cluster1_in_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster2",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "binary_data_wo": null,
+            "binary_data_wo_revision": null,
+            "data": {
+              "cluster1": "apiVersion: v1\nkind: Config\nclusters:\n- name: cluster1\n  cluster:\n    server: https://cluster1-control-plane:6443\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSFhVWjVwU1BzNHN3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsdVdXUDlwc1hTQWRES0hwRWVGUGFSUW9BM29wRGJYQXF2blovQWF5STErSEdXbGRoVGhuWTYvQTcKUkVWN2E5VzlUcG9SOVBScmVudXJjL1Y4aGFXL2pOY1BKWHk4RTR3L2czMjJSK09UckR0UHU2dFFxM1FGR2VqTQovREVXN2hWMUM0elVEeER4NE5CaDUxKzJoSnBRdEtPN1Zna0RDRVdISWR3Zkk0ZzFXbjA1OVdpbUlpaVZEYTBVCnNRK0hwUzJUVDRBTXk2SGdMakhxakVCNGhEcnBRU05WYStHd3ZyeWJjd0pOZzU1a1NHQkN6MS9OSnd4Tm1pOHQKWmN0VEtkQ1hIQ2VTaWFDdU1ZTm5IVDQ5aG5KUEpzZnI1SzZlRnJYbkJJQU5zbnZrMDBTbUIybytnRDlXSzZ5VAplZklSaGlFNTRXUm1SajltcGRJVDF0UzlEVWpIQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTY3MydEc5VmFKSzRjeGtva2YvWTM4dnRSa2d6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVlHOHM2ZGMzTwpFVloralFMSmhYUVpMK3pVanA5dkJrZnU4aGN0SUtqZWZSTmlnZVJpRXp1T25pSlErY3pVanlaOG5kVWc2REVDCi9FU2FVUmVKRGVOZDVrS0NYUkhiN0FmVGtMNjZmZ0tVWXJvN3Y2N0lwVGpnS2dxV3JtckZQRTE5eTQ1ckZ4Q04KTG1URDlnRHJmNXpobVlETm9MSVN1S2p3VHJrR01aZERRbi9jdytENk1BaTM3QklqeVd1bTFUd21CdzBTRVRjcQo0M3RBa0RBSjFBZk0ycE1NUlc4RVBueEVibGtSY2pyUGVsZkhpQXFWeERzdGsvdVdSVnB5UnBJd3RMamtrcjduCkFUUDNDZkN4dzJXLzRiL2pxWEFPNndFd1dIalR6L0JsdkRRNTkxNm9wOFQxV1dFQk9ubUFwUDBHNW5TZGg5MmEKTkN2b2xiaEhKc0VHCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\nusers:\n- name: cluster1\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJRjNJRFA1Z1F2Z1l3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDbXpLMkgKRnFINERDOEpiMzBkbjJOWG9JY0c1M2VnR2tFTnJQaUw2TkV6aEttOXNoZkpiaFFlRzVUWUlLUmlTN25XQlFmTQozUDQvSlE5TzJrRC94STJHSFZudnpsakxqa3E5bzVsRGNMdGxlK3dUbld6MlJ4L2lrdXo3SUlyZkZWWWhRbUZrCmExNWhBN3QwcERYUjhtNmw5NUlZQUx6TnN6elo5TlUvSC9RbFpGQnNmcDBWeitaMzFpc3VNRlB5aGN1Z1RYQlIKWlkrc3k0WDRicnlnNEZQcnduUEd2R283QzVtQkpJMGsraG4xMldrQlhFN0MzOXZqSFQyLzVQOGs4bytuZldkbApkSDQ3UGJ2aDgwMVNGSlNyNzJHbkpDOHp6bitlU0g0bEh5QXl4aVVwbXdRRU1iWnVLdWhPd015cTNCSEt2YW1sCktPVEtTYmQySjFNeHBLNFZBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkp5emEwYjFWb2tyaHpHUwppUi85amZ5KzFHU0RNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFlS3U2SDczOThycis1MkZva2FKVThTVThyCk1mTWcrUDI5TDRpN1BzVFlNRW5zOHFVN24yUU9rU0NpTFY4ZFlCUzNGME5XeFRRSWsrTUhNemF5bHJlLzl2NFYKdW9yTHlETjdpUE9wRy96QlR2c1pKZ1o5VXg1RTVHNkgzaWp6VEhtNGl2U0dzMlUrSlJnNDhtSkdwWHNScGpBNQpxRFNBS1U0RlJRdXZUakFMN01HbEV2NDYvQlIwOXZyQ3FLNGFkMnNBSDdKRWJYSnlpZnMxeGdrMzMyRVNwUUt1ClRwY0Z2a2czS2dtT2Z2QTl2R01JRUJpeTlFMmpMa2cydS84UHZIQ0ExS3dmRC9VSjNjYTc3SFQzREhFZlFPOWUKTWw0cE9iVE5ORlJCeUFpQURBZkNNejNXZEwvdmY1S1ZpbmxMWk1HWGJ4QjhVREhXN1dlSG9lUVpIeVlECi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBcHN5dGh4YWgrQXd2Q1c5OUhaOWpWNkNIQnVkM29CcEJEYXo0aStqUk00U3B2YklYCnlXNFVIaHVVMkNDa1lrdTUxZ1VIek56K1B5VVBUdHBBLzhTTmhoMVo3ODVZeTQ1S3ZhT1pRM0M3Wlh2c0U1MXMKOWtjZjRwTHMreUNLM3hWV0lVSmhaR3RlWVFPN2RLUTEwZkp1cGZlU0dBQzh6Yk04MmZUVlB4LzBKV1JRYkg2ZApGYy9tZDlZckxqQlQ4b1hMb0Uxd1VXV1ByTXVGK0c2OG9PQlQ2OEp6eHJ4cU93dVpnU1NOSlBvWjlkbHBBVnhPCnd0L2I0eDA5ditUL0pQS1BwMzFuWlhSK096Mjc0Zk5OVWhTVXErOWhweVF2TTg1L25raCtKUjhnTXNZbEtac0UKQkRHMmJpcm9Uc0RNcXR3UnlyMnBwU2preWttM2RpZFRNYVN1RlFJREFRQUJBb0lCQVFDZXh2MTBOMjR0QWVRUQpsa2xDVm9RcFdNelFIS3g2QWlQazBiK3k1d2VsZytaVWhlQXd4WkZ1NjVCdmYvc2ErcnpHNXZqNjRXOUFTcFhjCjJOUEE1S2hYZno4cWtJRmtHMm80UlRCU3kxQUhsY1F2RTg4eVRKZ2toUG9EUDRJU1Eydytzc0trNWJQc283SGcKb2FQOTIwbkt3UFVYMWpQamwzZ1lmZ0EwVzhWN2hRMWdsK09BaGpPRXJJU21UWERCMUFrbjB1Yzl4cmN5QWlkYgp6RHRSRS9QZkFTbDhVclROMXVTVmFpMXpyQk8waDNHa3RYVkdzVmViUDN0aU05aURHKys2T2w4a3ZWSzNQTTUzCnNWWkthSzdHVHRjOHEvZGVvZTFUSjlNY0d4ODdjd0Z1MlhxTU1iYmt2Y3Q3eTV3VVNQUDR2UEhlNXdRN1RhSm4KSGxLZ2JpdXRBb0dCQU1Xb3lWRFZ3N2ZaNjZzUkI5YkFRY011czF1SEZ4ZnBIOWdndlZ3ZXp3cmZLcDZYeFZUMAprWGY2UkpNRVM4WThEb052WmEyMmdSQkxVUWxTa25FMElJcmVXY2N1UFJYL1ZSMW1YY2JJTVR2aFdyUTlaMmdQCjJyN21Id0w1RlRqWC9ZVGQyWE9HL2w5T1g4TjFlSkgwQjZkWlVjcVA4ZFpuWFBrekNTaXRmY0hQQW9HQkFOZ0kKSFFDY29oT1FDckVFUXZUcWxPancvZ1RSQXd0d29DbTZtOHpQMHhpanlML0pHaGtpYnNkZjY3OGdueEI4a1NXVApwQzQ5RXFMaUlRZmlZU0dsNzl4Q0krRDArcWI0alFSSUZkZjRkRW1mNk5iSFlTMmk3M0N0NWdCVEJvdXUzVTN2CkpMaVIzVzJUc3hpaFRBbTMzUnd6c1NjOGVXVEY1eWpVQzBkS2xIN2JBb0dBYkdhaThjZ3FiRndCV1hJZm9IRVUKSDkwdTFGV0VIc0xsaWZ4Nm5WandKNEE0dVgxMjVaNnpZTjlLV0c2VXVBVWIySTF4Y0JHVk9zQnprdTlNRFBXUAptMWxTVjJCT2RBL3lPQXQ2QnBpb0Y3VUJyN08xVUdiUmlyeGQ2WjE5UEEySXBpT2RMRFN1c01va3p1ZFAxb3ZFCjNzeW5oTFhvNWJNT1ZFVGZFd1lDNEJVQ2dZQlhSZy9SYTNYZXlWWklaUnhYclYwekxnaXhFVzlWYzg2QWpTN2IKOHltb3pxSVBPTU1lWEZhOG5QZTBZdzFmcjdORHB2Mnc0R05qQWsrdHk3ckp5U3U1bzg2eTFzVmNKeFZ4SVY0Ugp2Z0hjcklsNEcxd2EvN1FUcFcxQnZFanNyVndpVy9aTnlqL1dRTkVkcGl2OTBSVzJpdnVLaWxmUWFsTVVuM1ZlCis3WTUrUUtCZ0NPakJIZjV3YmVtaHliRlRmc0VtMk9xdXd2eUxWeTFsbUZGY0NEQ1pNODRTbDN4MHpwVWtmLzUKZWx2bHByajBoSm44dVB6RDNkZFduNG1vd0FXRkFxZE1sL0ZNb1BIK29wZTlMNEE3aUtuWnB3UHErMW03UzRtWQpSbExnVG11RkIxcVl4ZFViR2doUjFvcHdiZzBQazFmdGI2T1kzbW9nYjZnWHNoU2JrYUVUCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\ncontexts:\n- name: cluster1\n  context:\n    cluster: cluster1\n    user: cluster1\ncurrent-context: cluster1\n"
+            },
+            "data_wo": null,
+            "data_wo_revision": null,
+            "id": "istio-system/istio-remote-secret-cluster1",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": {
+                  "networking.istio.io/cluster": "cluster1"
+                },
+                "generate_name": "",
+                "generation": 0,
+                "labels": {
+                  "istio/multiCluster": "true"
+                },
+                "name": "istio-remote-secret-cluster1",
+                "namespace": "istio-system",
+                "resource_version": "1220",
+                "uid": "9cd5397e-7b3f-4ddd-9a95-a63c45f0be53"
+              }
+            ],
+            "timeouts": null,
+            "type": "Opaque",
+            "wait_for_service_account_token": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "binary_data"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "data"
+              }
+            ]
+          ],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Secret",
+            "name": "istio-remote-secret-cluster1",
+            "namespace": "istio-system"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMH19",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.istio_base_cluster1",
+            "helm_release.istio_base_cluster2",
+            "helm_release.istiod_cluster1",
+            "helm_release.istiod_cluster2",
+            "helm_release.metallb_cluster1",
+            "helm_release.metallb_cluster2",
+            "kind_cluster.cluster1",
+            "kind_cluster.cluster2",
+            "kubernetes_namespace.istio_system_cluster1",
+            "kubernetes_namespace.istio_system_cluster2",
+            "kubernetes_secret.cacerts_cluster1",
+            "kubernetes_secret.cacerts_cluster2",
+            "null_resource.cluster1_connect_network",
+            "null_resource.cluster2_connect_network",
+            "null_resource.gateway_api_crds_cluster1",
+            "null_resource.gateway_api_crds_cluster2",
+            "null_resource.metallb_config_cluster1",
+            "null_resource.metallb_config_cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_secret",
+      "name": "remote_secret_cluster2_in_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster1",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "binary_data_wo": null,
+            "binary_data_wo_revision": null,
+            "data": {
+              "cluster2": "apiVersion: v1\nkind: Config\nclusters:\n- name: cluster2\n  cluster:\n    server: https://cluster2-control-plane:6443\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSUNKL1IxRmJRYll3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHpOakEwTURjeE9UUXdNRE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN6MHVJMkxtbzZPZ3NqNWVHSytxVzlnMUVUVkdrT1ZZVXV5NXJhTGFYVXgvSUlQZ3BtcTA0bVczQ1kKUkx2OC9xTTBzSUNKQUhFMTY4dVY0NnhzWTBzWkV0czkrTE45YzhhTXh6U1NlUHBnakxTZ25zYUhsdXZpTkhkcwpraXd5SWp5N1RockF5c0tHOERRR1graWZ1V0RyRThHM0tzVjJGbjNqRUhaWTZSTnZQd1hFZFFXMUlJQXQzb1NhCjkweDI3ZldQK1haTE16eTNGOXZUOW9INGNkeDRIZzB3dmZhdkJIWFNtVzVON1MxMzBZT1BmWUJpS1RiekMycEIKY292Zm82YThROHVBVlVTd0xEdjB1M0RCbWI3YWxzS0VUcU9PQ3hQRkZ0VzkySElWbG55YXVKNUFvUDN2N1RjbAp5R2g2azNlbXdwQXhlVDhCRmcxR2xLZDlEODFyQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUL080WmNQWWVreGVUWCtrbDdIeGdOMTIrYU56QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVk3REhvRDd2awpscG1iUjVwaWZ0eVZyZjAwc0piRy9aeGhWYlJMc1hMOWgvVEVwVE1pRXYrRHhuSy9HWW04R1VMc056VU1TR0szCnJJZnM3N2xBV0VUVkptN0UwMTk4Rm5SMHExMWgwSDFyZktJaS9aSWFvaGIwTk5VS2tybTh1YmRpMzR4YUxidWoKbmVHakQrcURHbEU0RE5GRlVIRTIxYlQwalM3dWVrdGNsNUxjUnJFZlF6UjM4RWJiL21COFo5dnNHZ0VaVkJrcwpqVS9ZdWoxNkg1Q1JKTEZDdmJicXNGSXdLaldxZlA5blBjc3FlaWxpRm1jZWlsZU1TaXkxZ0pvQzJlOWdSWk1QCi8vcUw5c1lxTWxzM0ZOckZiaExtMi9EVFBBbUVaUmVJOWplNkNueS9GVzJ1dE9kNElVRERtZHV1elM1UzJQMngKZzF1M3h3ZUg0YTNWCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\nusers:\n- name: cluster2\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJTVpVc2FDKzBhb2d3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBME1UQXhPVE0xTUROYUZ3MHlOekEwTVRBeE9UUXdNRE5hTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEYmgvQk4KK3NndXo0V3NvT1d1SnZpdEZIU1p3b1Q5N0diMzZsYWZWd2kySHJtOC84NVMwRGxlM2RBazYzRnRrUW00S0JheQpFczBoSDVPbXlmMVkwdFZBUDJJb1F2a3VvWHdGNGcxVmYra3VRL1RwY0tUWDRsMjMyc0tVbHZKZG1FNFRpVnBWCjJaSUlqaWxFSlh1T2dpUFdYRkdDQkdTeEtSSWFPdHdIQUU1SnVHWS8zSndWcVZGWGVBK1hVT1NISUZiMFpkRjkKRGoxTURaSnF5YUE0cW1aNjl6M0FpSG5UMkwxaDJjTWFnbWNkRS9mWTNOc0JMTnpUdTA2N0wvTU0wWGtraW8rMAp1RHhmLzBTMDJOZHlyeW4xZnIrMnhzT09GQ1JkQk8xbTJ3TVdSSk5CL282SGkzSWV6b0FYVE56R3dtM2hMVWNhCk00Rk5LakVZWDBDSmlPVlpBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRlA4N2hsdzloNlRGNU5mNgpTWHNmR0EzWGI1bzNNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUEvd1VqaklHaWRnRDdyR3FzVUVtSGdaVStHCmF3UE9kbFJhTXJGa2tCeXR0VXIvYmR3SEJHK0dESTJpeHBxWnNIVnJmdTQ5OVo5eEJCMHVRaUpQWHg5cGpySkoKS2tYdW00Z1NIVCs5N0VPRFBGeUZBdTYvMmRNY1NxcFZWVDNJNW53MWcvNnNFV014NGZ0aU81MVpPN2xXODgwaApRM3IwUnE2Zk9CNGhML1pnb0lRYXlKUzRKU0l2TmZNTG5ndGJOQnc1MXFveDNabHljZEx4Ulo5QzVYYmh1MGx6CjE0NEpzZ095Ymx1bFZFQWh4NHVNaWQ4eEZYZENzQmFqRVRWU1RNRXZLY0ZMUUJzZnNBK25yOGJ5OXJkc3N6OEIKYTA3bGV0UGxPS1c5RHU4M3kwTzRVbmYrK2RDMHpyYWxCRmJKaFJ4QTZyOTJrZDFrUnJBcU5TNHlvSWw0Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBMjRmd1RmcklMcytGcktEbHJpYjRyUlIwbWNLRS9leG05K3BXbjFjSXRoNjV2UC9PClV0QTVYdDNRSk90eGJaRUp1Q2dXc2hMTklSK1Rwc245V05MVlFEOWlLRUw1THFGOEJlSU5WWC9wTGtQMDZYQ2sKMStKZHQ5ckNsSmJ5WFpoT0U0bGFWZG1TQ0k0cFJDVjdqb0lqMWx4UmdnUmtzU2tTR2pyY0J3Qk9TYmhtUDl5YwpGYWxSVjNnUGwxRGtoeUJXOUdYUmZRNDlUQTJTYXNtZ09LcG1ldmM5d0loNTA5aTlZZG5ER29KbkhSUDMyTnpiCkFTemMwN3RPdXkvekRORjVKSXFQdExnOFgvOUV0TmpYY3E4cDlYNi90c2JEamhRa1hRVHRadHNERmtTVFFmNk8KaDR0eUhzNkFGMHpjeHNKdDRTMUhHak9CVFNveEdGOUFpWWpsV1FJREFRQUJBb0lCQUh5YytJSTdOWUNrMmJzNQpCY2RLWmVSUmRUS0dvVmxGNU5rYlV4cFZuQ05NNDUvdUVOOGZSVUdkWlhaZmsxNWZjd1h1ODVzWFl3dEhVbGZkCjFvcWgrdHppWGNSKzU5VlpZdjR2NStPOW5NNWZVdGxqMEo2ZTV4WGkvb3E3K0UyNms2OHhTMjdwOXFRV2xrUVIKaHNaSkJ6QzU3S2FCK2VvNlp3VXVuaEQzVW5relByT0MrcEZYcVNzSmd4NXB6QkhHMndqdUNHMDh2d0FFWHB4Uwp3Q1RLM2p3eHpBczdUYnhvODd5Um1wb1FraXVGb2ZsdVJpVzNYbzdJV1JGOGNmZDI5Q2dzcVJ4MzlUSkp4aC9FCitWREh5TUg1NVF3UlNWUFVxQzRwVThsRjJOQWRMdzVQRDM1L3RRTTFIOVE1MUdGdHhDTnVXUFBHYWJzRFBzTFgKa1gybGdpVUNnWUVBNDZGMUNrQUx2aExkaGFqT0w2WXQrREl6M0dZTFVHSEtFSTJzK1NCRVZMRGhHS1BidUUybQpwN1p2am9abkpGYXZGQ0xCeFpJK2Zjdml0MUk3Q0FxRHVrSFhIQkhJSXZNMEgrSGpvSnk0dHI1SnlXeW5WYXg3Ck5uQmE4TklaYTB0eWRYZ2VIanZDcmZQUllobDlKUkR4Y1hZVWFlNXZqVFFTeFJGQWtDajdTeU1DZ1lFQTl1UVAKeWNyNW9FVHZxWTJIbUpQdm5tdlBqa3hzdWpodmRsTlR6RklYNm10eHpHcHJocTZpT2FMRExyWDdyRWd6clJ6aApPOHFEa1dHOWZqUTltUUNhd0t5Q21RUWVVeXhTRkw2N2ZBSzd1Q1pPNThHSko0Zk9wWVpyNm1IVjI4U3lPNmh1CmdKOC92cGd2R3JobVVwNWlPdzEvZmhhRFEzc0FqS0FDOWdLTFkxTUNnWUErS1hSVjFVR2ZxWFUzTCs4R2tpSVIKbWx3UlB3aXQ3ZGFKaUxjSTNXZnJuTllMcll1dUcvNTc1RlU0bmJtQzhlMGoyWTRERHpuampvOGVNdVdOLzVrVApmekZvSis3NHBHUENwU1JOVXg4YVFJTFQ3OGtPbTJpV2FENWRiM0tqbTFucGZHRDFMcXF1YUZ2d3B6ZEdyUWJTClRrV3EzQU00azFUZzNpSThmQVNMOHdLQmdIQ1ovMkZuZzRaSEtvOUlEMm5WUHRvZ0RaKzIxM2Z2T1ZiY0ZrSC8KeHd5UlNHdVV0Y25OYUF1bFlpT3h1RUVSQlJDVk5WeVJ0b1BkOGhEWFBxakRqOUVFWE9Qdzd1dThNUXRwR2hVcgpJZmFROGpmZEd2SytpODhPaWJWeVBabG9FbW9ISGE3bjhxaTR1L01SMndrZlYybmJkQ1JMbkQ1d29RV0NEUmVxCmZXd2xBb0dCQU5NYjFtSnM4dVI0cHVtT3NOQkFYQmt6K0drQjlsaXc0MWh5NVFnUW1yR0NocUVEQ1hCcUkzVEwKa1prcVZ6WHVOTXhPWXNFdnVUd3BmaVhxN0d5cDhCUy92SkhMYVpHbXJBemZMRmRqREQ5bjF2OElCakZqazFENwp6SWhndG91ZVl3b0tRcUw2KzR0MDVZbm8wQitqWnVua2czditLOXkwZXdKaE91WnF6VUlRCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\ncontexts:\n- name: cluster2\n  context:\n    cluster: cluster2\n    user: cluster2\ncurrent-context: cluster2\n"
+            },
+            "data_wo": null,
+            "data_wo_revision": null,
+            "id": "istio-system/istio-remote-secret-cluster2",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": {
+                  "networking.istio.io/cluster": "cluster2"
+                },
+                "generate_name": "",
+                "generation": 0,
+                "labels": {
+                  "istio/multiCluster": "true"
+                },
+                "name": "istio-remote-secret-cluster2",
+                "namespace": "istio-system",
+                "resource_version": "1298",
+                "uid": "9cbca1ed-00b0-4f9e-9b74-cdf7ae4d8cfb"
+              }
+            ],
+            "timeouts": null,
+            "type": "Opaque",
+            "wait_for_service_account_token": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "binary_data"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "data"
+              }
+            ]
+          ],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Secret",
+            "name": "istio-remote-secret-cluster2",
+            "namespace": "istio-system"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMH19",
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.istio_base_cluster1",
+            "helm_release.istio_base_cluster2",
+            "helm_release.istiod_cluster1",
+            "helm_release.istiod_cluster2",
+            "helm_release.metallb_cluster1",
+            "helm_release.metallb_cluster2",
+            "kind_cluster.cluster1",
+            "kind_cluster.cluster2",
+            "kubernetes_namespace.istio_system_cluster1",
+            "kubernetes_namespace.istio_system_cluster2",
+            "kubernetes_secret.cacerts_cluster1",
+            "kubernetes_secret.cacerts_cluster2",
+            "null_resource.cluster1_connect_network",
+            "null_resource.cluster2_connect_network",
+            "null_resource.gateway_api_crds_cluster1",
+            "null_resource.gateway_api_crds_cluster2",
+            "null_resource.metallb_config_cluster1",
+            "null_resource.metallb_config_cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_secret",
+      "name": "xds_gateway_tls",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"].cluster3",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "binary_data_wo": null,
+            "binary_data_wo_revision": null,
+            "data": {
+              "tls.crt": "-----BEGIN CERTIFICATE-----\nMIIFUTCCAzmgAwIBAgIJALfV88jJIF72MA0GCSqGSIb3DQEBCwUAMCIxDjAMBgNV\nBAoMBUlzdGlvMRAwDgYDVQQDDAdSb290IENBMB4XDTI2MDQxMDE5MzkwMVoXDTI4\nMDQwOTE5MzkwMVowJjEOMAwGA1UECgwFSXN0aW8xFDASBgNVBAMMC3hkcy1nYXRl\nd2F5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3+U/mY8HcyUqJK1Q\nFSjZsqBfEuGJLMY6DanjmF70BYsNEYsx/6+8aFjIzAs0T6KFfN2+FD5xeUgPAmOl\nmBxYHOtfPAieATpSkvKyyw/U6Co28nuUbFIi1cheMlRnmr9HPFKEED1p7i7qA9rL\nIrfeRd5zQDPGaxStp0682+W5wGSnEJjlC2wiF8QI0fV+s7++gLjZFjd40mXmWqFY\nTu5G38+gLSVUfH6U8mub1TJ62OB0A4QtyPygDs5a3h+46QW/BKrK13DqPfh9c2RM\nqfrd6v6/8+L9fvQnecO/A5DewNjbW4uvXYkgjQ4pR+V50iQCcp+gsG/xZK/8YUlp\n8UmEAgQDemarAjCwr9AW7TvdIUaPuwkS1FUerSDRB2Ij+C+F5NdlgXgUop3pzZna\n4p6cKy7Uc20RFyfDWejfeB0ShEP5JxxRcAQuItApA2BTZiaN2PKpftTyeqJNb1d5\nnVFv0aYly/R9EM3q/3jqkA/bGPW/Njl063x2Pbr8Icvza1KJ456lZHbZw+fCsL0y\nkl3ChVVdKN/IwxCPNL1jbuh859mbJjSFbFvDVvpdcMEyByE7r+LbT35dGz4Zv/Gt\ndkJDwQcXWqikLAqnKL+UVwIrKPszGIqQGDTGtXYgyzf/2FiCjsi25iCIIIeW+PYi\nhawpm3B1XGikMIUUDjXJXCQ40qECAwEAAaOBhTCBgjBTBgNVHREETDBKhwQKWgAC\ngid4ZHMtZ2F0ZXdheS5kaXNjb3Zlcnkuc3ZjLmNsdXN0ZXIubG9jYWyCGXhkcy1n\nYXRld2F5LmRpc2NvdmVyeS5zdmMwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAwEwYD\nVR0lBAwwCgYIKwYBBQUHAwEwDQYJKoZIhvcNAQELBQADggIBAAzurwxnxiuN/aCt\nqT2rY99EGa7uQ8loPZdKVYstRnn41RaZQYeegpZaZBnXhF+sGInGMGGm1qDv/YX3\nqce/Z5GCkUQua1ld4Md8MwIzi3r+N087wMBSB0yDEnrUq0XprO/S1ZLOW+9hO6N3\n28gThEgd60232Mm0MZc8fegJ5kmYuvP+SYxiPGKc8GKfmWjQkX6S+rIRN+tvxbsZ\nDf41zLlzyS20HrXyv/GCuQdGyckee0iJzWyCvFBudpPlZ3CXgX3ql8uFcAKbTEM3\nECI5xN26TTLR+4/6R8yDbp+/D8nsHlC2JwMSyL3WbpMULJ5qa+4WDXG5YwxzHWwy\nAaS5mTpVY8t0pM2/TwcP7ZIA9CrtNPBj3r6XUmlMyG/T6RW0Za5l8AgF1GAuSbNp\n/rRjPY4PhrOmabCBZYemoqX5eojPhF1Ad/G9RyPQS7zTyAjs9VaXIpEji5V2iUD1\nKi44AQMHWBYirq3H0t00VcAvdJwfGcP6hnASZGv3qVnIFs5GE+JC7tnAg2eUq3vy\nfvGsNDh0E9oV0VeTVfC7FW3UUCGG6qG9Y8oWwUo0R2+JxL6qSAd0MEKt1BdMIeEx\n4Mtz6jluI1e/mwi4OqnfhDLtqXubcNrHJ6G6CBRmsw+uwp7FcS6i3VzU+fIDCj1s\nUDaVScQq7X4oJISEll/lBErFz8J5\n-----END CERTIFICATE-----\n",
+              "tls.key": "-----BEGIN RSA PRIVATE KEY-----\nMIIJKgIBAAKCAgEA3+U/mY8HcyUqJK1QFSjZsqBfEuGJLMY6DanjmF70BYsNEYsx\n/6+8aFjIzAs0T6KFfN2+FD5xeUgPAmOlmBxYHOtfPAieATpSkvKyyw/U6Co28nuU\nbFIi1cheMlRnmr9HPFKEED1p7i7qA9rLIrfeRd5zQDPGaxStp0682+W5wGSnEJjl\nC2wiF8QI0fV+s7++gLjZFjd40mXmWqFYTu5G38+gLSVUfH6U8mub1TJ62OB0A4Qt\nyPygDs5a3h+46QW/BKrK13DqPfh9c2RMqfrd6v6/8+L9fvQnecO/A5DewNjbW4uv\nXYkgjQ4pR+V50iQCcp+gsG/xZK/8YUlp8UmEAgQDemarAjCwr9AW7TvdIUaPuwkS\n1FUerSDRB2Ij+C+F5NdlgXgUop3pzZna4p6cKy7Uc20RFyfDWejfeB0ShEP5JxxR\ncAQuItApA2BTZiaN2PKpftTyeqJNb1d5nVFv0aYly/R9EM3q/3jqkA/bGPW/Njl0\n63x2Pbr8Icvza1KJ456lZHbZw+fCsL0ykl3ChVVdKN/IwxCPNL1jbuh859mbJjSF\nbFvDVvpdcMEyByE7r+LbT35dGz4Zv/GtdkJDwQcXWqikLAqnKL+UVwIrKPszGIqQ\nGDTGtXYgyzf/2FiCjsi25iCIIIeW+PYihawpm3B1XGikMIUUDjXJXCQ40qECAwEA\nAQKCAgEAjxiX4270lfUk0DgsvLlVGcNBwHGBGKrAo8b2/YWCdKCAg7vxArewtQg5\nnZ9zmYoHwtx+BbY7FAaoASDqzyMeda1BOr9PLP23lM+k0f+WVaPVZnjxTaHZPcVH\n3ubvKIoj3zvlx/NYZrB5RGlr9w6I8yLPijMNF5cpvYqnTeuvInWyCPuPOBOuXn4e\nHQLILd3YxbBensJpaB9UcIw6QogrqBOtDe2T59WHIMEB4erXdRFPVIgAMzqymYPt\ns5WWuue/RB5ccgFq1JyioUNzdBgwCWc0C44B8kfdiwc+Z+sJUzvGRuYp+KARu9VX\nMOpLR7FYFyZKrzl8kJuhtBQVr+8KfISy04/C/DCHGA+EN98fSPwRYq8luu145Al6\nb1GgYkTz5F8ldAku4sKKc7KMhZqSBXuBNShvI+KQLFj4JfvhY+AeopoP8kQjrykN\nQgN3qsVAhoLjkxyFbXdTv8wHyeJRewdOdDIk4gXFmSmlCrolX8OtozOfzkY4pAdO\nYCfeAoNRzceOHxEXzyYKW2MrTvo1O2lTYF31GfRdtmrwMexLevxZzcFiJMLpXr/f\nsrFkm2HM7JmlSX5WrV/YPjz5JxqEzC4P3QYiFtygf6kja2oJtv0Ga9fmFX4vvh5G\nLNOmP9RemSPts1ouZkySzysGL9A7u2py3WsYccEBOLEdH3IohaECggEBAP6yH1ML\nsFR5QKPwhnQTOrmc7vkWDZSITSyyVsCUKbmpn0EB32K9xJhfX4Sw7+0Z1UwJiMP3\nTmdaSa6+SQlkwa00HTcrTkaQ6ceu8DQyGBT9muuJJKz4qGK58mYcvAH7+/LGR1wl\nyvgpRE2AeLWbN7PswLyb/4fC/aZatDa2vFQxyT/vU95uHYqA9V/mqc0kFZgcD2S9\nv+eb3ePPJ0T+Tl7cT37UP0XKgBhaSsmVWoo77/NuYviU92pHd4c8OEz4MFYotaYH\nNjEkcp5QyZy7LlpMxwAgR8kYJb98SZfsyRO9GxBlJ+RueUCO7MTgw8GqwT66Andq\nJA+x3EQ1GkdpmD0CggEBAOEKwBbe2K2J7ZkV5B0UCVGQS1gXm1nZRAIQbqwAp+k5\n7wA/QrLDG6tGHEzgwHjRbzdaBvLCNkPgHcBtiguNyNaWFUunNip3Uk6gN+mJnsN4\nh6Rreo97g6uKTRzuMgjjouT0lqVQ2rcQw3ldCLnNHNEJwNz+EewgNd/JBhVzL7/X\nuTVC6gjZLB3OiienpWYdr+K3CQT6XUBlxbbowJOVPfyIChc5qiCbFgXM6JLIikaK\ngp4wEU5MLn7YS+E/bh8Tg/YIQjsao0yG4MGLym6ozO6VqVqCHd444eSaDGOomER/\n8GkIE1YpnVVsk5hIIhOxJ6FIf6or5pSusUzEy0LEZjUCggEBAME/6aCbV9lgfvll\nAL+F76LyPihk4Tz4BoaJcmWAhgBHgXxTrWlAT7DFfLYzgnhGh57ABTObq7OjwBCE\ndOpZttJynlBD3YqRXbCTPdJ8x+T1X9yjHF7Z9Pmj2RY9azGePlbAt1hlnJGaziZ3\n+h7hfOxaEQuK2eHqw4a7f82b7V18wRRvxRUaO/PhUUzIucHbRT862zs29isICt5V\nSZiB1HkJdI/o/3E26uaPa/t0BVSpkbEE6rduYCQVwc2slZNhJVvaW6l0A1xaKVWS\nOsdfBxag9sVTuOQOHGYkKbrKgO8nJyfTeOdMI1gmmePwHtgNdb7gaAqvUFlQPK7M\nE/pnVokCggEATkN22n1VzcSSJRM/6fz14K/WBCTxmiW9SRp94sO3oZzMScG2aIUC\nMmaHoRTo2xu7GfztPa/dP23J6wotYCdHGZnIfi8A33Pv4/hEeauq00AvrDbUwOGr\nwRSwDMeqDv1bwVRur7+W0OO7l5GLX1K+GtTRhgm2IfBxzAoVW5BbotRbTPKggcNF\nXHhgA7qCAyl/6dDOCjUoCSVbxWjc0HauwAxvtfQP/pbw6cOBfsrPjAjPtEPzQM+t\nu99tREDTA2u+EOp+Xh+9evfNYoJDPIjn/HGAHEH0MTyHEwGgHWicy/XSnjR4xRZj\n6TmBewxbDY4mwih8faoW3s6CSriGGApFoQKCAQEAiV5j12zX/E+d2KzzVC/emhSU\nKQJWKiGCy2I56G+yUPa9H85abTnfx4EUNJetfzsOmKTErLt6M+QFZkMZlyb4uC/I\n47Ea1nht1pjJQ8Ji+xWfbdfRqCKsUGT7HBHLGlQBcVknYCSDgmebP9jyEDdaqI0r\nmi3ZQFEx86pYWDxijZVU+7cMGzKE5G7KdAOd6BJjGNMqjAPm2nRmQzCTDj6oHfwP\nLHWMDIWDsp3nIZ4FAUL+Xy+INOvz1PRyAb47lVRJPLFsf9pXGZi+IZDN29UwnEaG\nDitu5eNUcz6wF1QuhPIYiPHBDKJAbIiCKXW1vGpdqpkHgZtX/ZyHShApjKMpeQ==\n-----END RSA PRIVATE KEY-----\n"
+            },
+            "data_wo": null,
+            "data_wo_revision": null,
+            "id": "discovery/xds-gateway-tls",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "xds-gateway-tls",
+                "namespace": "discovery",
+                "resource_version": "1230",
+                "uid": "5adaed86-fa58-4e98-94ff-18c6a29a0c52"
+              }
+            ],
+            "timeouts": null,
+            "type": "kubernetes.io/tls",
+            "wait_for_service_account_token": true
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "binary_data"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "data"
+              }
+            ]
+          ],
+          "identity_schema_version": 1,
+          "identity": {
+            "api_version": "v1",
+            "kind": "Secret",
+            "name": "xds-gateway-tls",
+            "namespace": "discovery"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMH19",
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster3",
+            "kubernetes_namespace.discovery",
+            "null_resource.cluster3_connect_network",
+            "null_resource.xds_gateway_cert"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "build_endpoint_controller",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "8816324012181244391",
+            "triggers": {
+              "source_hash": "3651c7ad06afdae1f7992a0a121a37db44cbc9fe093e10d2e750299a68b10e66"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "kind_cluster.cluster3"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "build_xds_gateway",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "1851319641613155536",
+            "triggers": {
+              "source_hash": "0749a79482543b4d2d8bbb8c368dc22268789cd6d3a94415fe00fbe2602d7a23"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster3",
+            "null_resource.cluster3_connect_network",
+            "null_resource.xds_gateway_cert"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "cluster1_connect_network",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "3217795595444235797",
+            "triggers": {
+              "cluster_id": "cluster1-kindest/node:v1.31.4",
+              "network_id": "0cfaebfc3d1a769a515613d3cbbfd0cc11d2298762f3fb75bab130baa4061242"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "cluster2_connect_network",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "2701516727838553426",
+            "triggers": {
+              "cluster_id": "cluster2-kindest/node:v1.31.4",
+              "network_id": "0cfaebfc3d1a769a515613d3cbbfd0cc11d2298762f3fb75bab130baa4061242"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "cluster3_connect_network",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "2697363689122752299",
+            "triggers": {
+              "cluster_id": "cluster3-kindest/node:v1.31.4",
+              "network_id": "0cfaebfc3d1a769a515613d3cbbfd0cc11d2298762f3fb75bab130baa4061242"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster3"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "gateway_api_crds_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "1359436569477267790",
+            "triggers": {
+              "cluster_id": "cluster1-kindest/node:v1.31.4"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "kind_cluster.cluster1"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "gateway_api_crds_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "4245602907438754101",
+            "triggers": {
+              "cluster_id": "cluster2-kindest/node:v1.31.4"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "kind_cluster.cluster2"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "metallb_config_cluster1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "3174325965394984738",
+            "triggers": {
+              "cluster_id": "cluster1-kindest/node:v1.31.4",
+              "ip_range": "10.10.0.1-10.10.0.254"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.metallb_cluster1",
+            "kind_cluster.cluster1",
+            "null_resource.cluster1_connect_network"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "metallb_config_cluster2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "6946567827556661679",
+            "triggers": {
+              "cluster_id": "cluster2-kindest/node:v1.31.4",
+              "ip_range": "10.81.0.1-10.81.0.254"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.metallb_cluster2",
+            "kind_cluster.cluster2",
+            "null_resource.cluster2_connect_network"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "metallb_config_cluster3",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "326941769716099868",
+            "triggers": {
+              "cluster_id": "cluster3-kindest/node:v1.31.4",
+              "ip_range": "10.90.0.1-10.90.0.254"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "helm_release.metallb_cluster3",
+            "kind_cluster.cluster3",
+            "null_resource.cluster3_connect_network"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "xds_gateway_cert",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "1017739028551304479",
+            "triggers": {
+              "cert_exists": "yes"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "docker_network.shared",
+            "kind_cluster.cluster3",
+            "null_resource.cluster3_connect_network"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
