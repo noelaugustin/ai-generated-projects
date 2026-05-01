@@ -1,0 +1,85 @@
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: ops-gateway
+  namespace: istio-system
+spec:
+  selector:
+    istio: ingress
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "*.{{ .Values.subdomain }}"
+---
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: acme-solver-aggregator
+  namespace: istio-system
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8089
+      name: http
+  selector:
+    acme.cert-manager.io/http01-solver: "true"
+---
+apiVersion: networking.k8s.io/v1
+kind: IngressClass
+metadata:
+  name: istio
+spec:
+  controller: istio.io/ingress-controller
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: default-block
+  namespace: istio-system
+spec:
+  hosts:
+    - "*.{{ .Values.subdomain }}"
+  gateways:
+    - ops-gateway
+  http:
+    - match:
+        - uri:
+            prefix: "/.well-known/acme-challenge/"
+      route:
+        - destination:
+            host: acme-solver-aggregator.istio-system.svc.cluster.local
+            port:
+              number: 8080
+    - fault:
+        abort:
+          httpStatus: 404
+          percentage:
+            value: 100
+      route:
+        - destination:
+            host: non-existent
+            port:
+              number: 80
+---
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: internal-gateway
+  namespace: istio-system
+spec:
+  selector:
+    istio: internal-ingress
+  servers:
+    - port:
+        number: 443
+        name: https
+        protocol: HTTPS
+      tls:
+        mode: SIMPLE
+        credentialName: hello-cert-tls
+      hosts:
+        - "*"
