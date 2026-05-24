@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+_override.tf
+_override.tf.json
+.terraform.lock.hcl
+.terraform.rc
+terraform.rc
+
+# Secrets and Tokens
+certs/
+
+# Cluster Configs
+*cluster-config*
+*clusterconfig*
